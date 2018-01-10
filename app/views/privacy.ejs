@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body id="<%= pageID %>">
+      <header>
+          <!-- smiling lady picture-->
+          <div class="jumbotron hidden-xs">
+          </div>
+        </header>
+    
+    <div class="container">
+      <h4>Introduction</h4>
+
+<p><%-privacy[0].Introduction%></p>
+
+<h4>Use Of This Site</h4>
+
+<p><%-privacy[0].Use%></p>
+
+<h4>Accounts, Passwords and Security</h4>
+
+<p><%-privacy[0].Accounts%></p>
+
+
+</div>
+
+    
+   
+    <% include partials/template/jsdefaults.ejs %>
+    <% include partials/template/header.ejs %>
+    <% include partials/template/footer.ejs %>
+  </body>
+</html>

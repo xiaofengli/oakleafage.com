@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body id="<%= pageID %>">
+      <header>
+          <!-- smiling lady picture-->
+          <div class="jumbotron hidden-xs">
+          </div>
+        </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+        <% include partials/content/speakerslist.ejs %>
+        </div><!-- primary -->
+        <aside class="col-sm-4">
+          <% include partials/content/artworklist.ejs %>
+        </aside><!-- secondary -->
+      </div>
+    </div><!-- container -->
+    <% include partials/template/header.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
+    <% include partials/template/footer.ejs %>
+  </body>
+</html>
