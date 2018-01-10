@@ -1,5 +1,5 @@
 # Building a Website with Node.js and Express.js
-Need to integrate with webpack to organize the resource.
+This is a lightweight website using ExpressJS for the MVC and use EJS as HTML template.
 
 ## Installing
 1. Make sure you have these installed
@@ -15,14 +15,6 @@ Need to integrate with webpack to organize the resource.
 * Run `> npm install` to install the project dependencies
 * Run `> npm start` command to start the automation
 
-## Technology stack
-
-* NodeJS: npm init <br>
-        install dependencies in the package.json
-* ExpressJS
-* Bootrap & css & HTML5
-* Webpack: configuration file and dependencies management
-
 ## Code commit and contribution
 
 ### Create your branch off develop branch
@@ -34,13 +26,13 @@ git checkout -b xiaofeng/add-img-slider <br>
 
 For example, 
 
-E:\extremehunter.us\extremehunter.us>git add README.md
+E:\oakleafage.com>git add README.md
 
-E:\extremehunter.us\extremehunter.us>git add app/routes/index.js
+E:\oakleafage.com>git add app/routes/index.js
 
-E:\extremehunter.us\extremehunter.us>git status
+E:\oakleafage.com>git status
 
-On branch xiaofeng/show-git-cmd
+On branch xiaofeng/add-img-slider <br>
 
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -56,6 +48,13 @@ Untracked files:
 Please do not commit node_modules.
 
 ## Send pull request to develop branch
+We already send code merge request to target to our develop branch.
 
 ## Merge from develop to master branch
-Master branch is always the most trustable branch.
+Once develop branch is tested fine, then merge develop branch to master branch. Master branch is always the most trustable branch.
+
+## Technology stack
+* NodeJS: npm init <br>
+        install dependencies defined in the package.json
+* ExpressJS
+* Bootrap & css & HTML5
