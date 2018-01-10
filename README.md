@@ -12,8 +12,13 @@ This is a lightweight website using ExpressJS for the MVC and use EJS as HTML te
 3. CD to the folder `cd FOLDERNAME`
 * Run `> npm install -g nodemon` to install nodemod globally
 * Run `> npm install -g http-server` to install another node based http server.
-* Run `> npm install` to install the project dependencies
-* Run `> npm start` command to start the automation
+* Run `> npm install` to install the project required library dependencies
+* Run `> npm start` command to start the server
+
+Once the last above command is executed, keep the window open,
+and try to open in your browser for: localhost:3000. 
+
+Please Open app.js and read the comment for how it is working.
 
 ## Code commit and contribution
 

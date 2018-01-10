@@ -5,10 +5,12 @@ var app = express();
 var dataFile = require('./data/data.json');
 var io = require('socket.io')();
 
-//Set server to run on tcp port 3000, app is like a big hashmap
+/*Set server to run on tcp port 3000, app is like a big hashmap
+  Start your server at: localhost:3000
+*/
 app.set('port', process.env.PORT || 3000 );
 
-// Assign the var to a key-'appData', app.get('appData'), kinda like global vars
+//Assign the var to a key-'appData', app.get('appData'), kinda like global vars
 app.set('appData', dataFile);
 
 //local variables shared by all the view pages
@@ -19,7 +21,7 @@ app.locals.allSpeakers = dataFile.speakers;
 app.set('view engine', 'ejs'); // view engine can be mastache/handlebarjs/ejs html template
 app.set('views', 'app/views');
 
-// Set up controller
+//Set up controller
 app.use(express.static('app/public'));
 app.use(require('./routes/index'));
 app.use(require('./routes/speakers'));
