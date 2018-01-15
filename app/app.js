@@ -17,9 +17,13 @@ app.set('appData', dataFile);
 app.locals.siteTitle = 'Roux Meetups';
 app.locals.allSpeakers = dataFile.speakers;
 
+
+/*
+ *  MVC, model, view, controller.
+ * */
 //Set up view and view engine
 app.set('view engine', 'ejs'); // view engine can be mastache/handlebarjs/ejs html template
-app.set('views', 'app/views');
+app.set('views', 'app/views'); // web rending, .jsp
 
 //Set up controller
 app.use(express.static('app/public'));
