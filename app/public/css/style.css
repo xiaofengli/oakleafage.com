@@ -234,7 +234,7 @@ header .jumbotron {
 
 
 
-#Slideshow{       
+.slideshow {       
 	align-items: cover;      
 	display: flex;
 	flex-direction: column;

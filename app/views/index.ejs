@@ -9,37 +9,10 @@
       <div class="jumbotron hidden-xs">
       </div>
       -->
-      <!-- no script page-->
-      <noscript>
-          <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
-                      height: 100%; width: 100%; background-color: #FFEB8B">
-                      
-              <p style="margin-left: 10px">JavaScript is not enabled in your browser! 
-                Please enable it to use our web service!</p>
-          </div>
-      </noscript>
+     
     </header>
-    <div id="Slideshow">
-      <div id="Slider">
-        <!-- pictures for the slide show-->
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n1.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n2.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n3.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n4.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n5.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n6.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n7.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n8.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n9.png"/>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n10.png"/>
-      </div>
-      <div id="Arrows">
-        <!-- arrows used to control the slide show-->
-        <i id="Prev" class="fa fa-chevron-left fa-2x" onclick="plusDivs(-1)" aria-hidden="true"></i>
-        <i id="Next" class="fa fa-chevron-right fa-2x" onclick="plusDivs(+1)" aria-hidden="true"></i>
-      </div>
-    </div>
-    
+   
+    <% include sliderShow.ejs %>
     <% include partials/content/speakerslist.ejs %>
     <div class="container">
       <div class="row">
@@ -56,45 +29,7 @@
     <!-- navigation bar -->
     <% include partials/template/header.ejs %>
     <% include partials/template/footer.ejs %>
-    
-    <script>
-       var slideIndex = 1;
-       showDivs(slideIndex);
-       
-       function plusDivs(n) {
-         showDivs(slideIndex += n);
-       }
-       
-       function showDivs(n) {
-         var i;
-         var x = document.getElementsByClassName("mySlides");
-         if (n > x.length) {slideIndex = 1}    
-         if (n < 1) {slideIndex = x.length}
-         for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-         }
-         x[slideIndex-1].style.display = "block";  
-       }
-       carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 8000); // Change image every 2 seconds
-}
-$(function() {
-  $('.footer-links-holder h3').click(function () {
-    $(this).parent().toggleClass('active');
-  });
-});
-      
-        </script>
+   
   </body>
   
 </html>
