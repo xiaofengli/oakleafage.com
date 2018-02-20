@@ -6,17 +6,17 @@ var router = express.Router();
 router.get('/', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
-  var pageSpeakers = data.speakers;
+  var pageServices = data.services;
 
   // Functional programing, lambda calculus
-  data.speakers.forEach(function(item) {
+  data.services.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
 
   res.render('index', {
     pageTitle: 'Home',
     artwork: pagePhotos,
-    speakers: pageSpeakers,
+    services: pageServices,
     pageID: 'home'
   });
 
