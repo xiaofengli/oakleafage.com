@@ -2,8 +2,12 @@
 var express = require('express');
 var reload = require('reload');
 var app = express();
-var dataFile = require('./data/data.json');
 var io = require('socket.io')();
+
+//Load data
+var dataFile = require('./data/data.json');
+var privacyStatement = require('./data/privacy.json');
+var termOfUse = require('./data/termofuse.json');
 
 /*Set server to run on tcp port 3000, app is like a big hashmap
   Start your server at: localhost:3000
@@ -12,9 +16,10 @@ app.set('port', process.env.PORT || 3000 );
 
 //Assign the var to a key-'appData', app.get('appData'), kinda like global vars
 app.set('appData', dataFile);
-
+app.set('termOfUse',termOfUse);
+app.set('privacy',privacyStatement);
 //local variables shared by all the view pages
-app.locals.siteTitle = 'Roux Meetups';
+app.locals.siteTitle = 'Oak Leafage Education Consulting';
 app.locals.allServices = dataFile.services;
 
 /*
