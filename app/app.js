@@ -15,8 +15,7 @@ app.set('appData', dataFile);
 
 //local variables shared by all the view pages
 app.locals.siteTitle = 'Roux Meetups';
-app.locals.allSpeakers = dataFile.speakers;
-
+app.locals.allServices = dataFile.services;
 
 /*
  *  MVC, model, view, controller.
@@ -28,7 +27,7 @@ app.set('views', 'app/views'); // web rending, .jsp
 //Set up controller
 app.use(express.static('app/public'));
 app.use(require('./routes/index'));
-app.use(require('./routes/speakers'));
+app.use(require('./routes/services'));
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
 app.use(require('./routes/chat'));
