@@ -2,10 +2,10 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/privacy', function(req, res) {
-  var data = req.app.get('appData');
+  var privacyJson = req.app.get('privacy');
   res.render('privacy', {
     pageTitle: 'Privacy',
-    privacy:data.Privacy,
+    privacy:privacyJson.Privacy,
     pageID: 'privacy'
   });
 

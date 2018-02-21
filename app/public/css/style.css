@@ -112,29 +112,29 @@ header .jumbotron {
 	.navbar
 }
 
-.speakerslist {
+.serviceslist {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   line-height: 160%;
 }
 
-#speakerList .speakerslist-img {
+#speakerList .serviceslist-img {
   margin-right: 20px;
 }
 
-.speakerslist-title {
+.serviceslist-title {
   font-size: 1.7em;
 }
 
-#home .speakerslist-title {
+#home .serviceslist-title {
   font-size: 1.5em;
 }
 
-#speakerDetail .speakerslist-title {
+#speakerDetail .serviceslist-title {
   font-size: 2.4em;
 }
 
-#speakerDetail .speakerslist-img {
+#speakerDetail .serviceslist-img {
   margin: 20px 0;
 }
 
