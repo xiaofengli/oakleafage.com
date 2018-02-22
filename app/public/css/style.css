@@ -16,20 +16,12 @@ p {
   font-family: inherit;
   font-weight: lighter;
   font-size: 15px;
-  padding-left: 2px;
 }
-
-span {
-	
-
-}
-
 
 li {
   font-family: inherit;
   font-weight: 100;
 }
-
 
 a {
   color: #DD4F53;
@@ -73,7 +65,6 @@ header .jumbotron {
 .navbar-inverse {
   border: 0;
 }
-
 
 .navbar-brand {
   font-family: 'Roboto', sans-serif;
@@ -125,7 +116,7 @@ header .jumbotron {
   line-height: 160%;
 }
 
-#speakerList .serviceslist-img {
+#serviceList .serviceslist-img {
   margin-right: 20px;
 }
 
@@ -137,11 +128,11 @@ header .jumbotron {
   font-size: 1.5em;
 }
 
-#speakerDetail .serviceslist-title {
+#serviceDetail .serviceslist-title {
   font-size: 2.4em;
 }
 
-#speakerDetail .serviceslist-img {
+#serviceDetail .serviceslist-img {
   margin: 20px 0;
 }
 
@@ -251,20 +242,20 @@ header .jumbotron {
 }
 
 /** slider size **/
-#Slider{
+#slider{
 	border: 0px solid #FFEB8B;       /** frame of the slideshow **/
 	height: 620px;
 	overflow: hidden;
 	width: cover;
 }
 /** image size **/
-#Slider img{
+#slider img{
 	height: 620px;
 	width: 100%;
 	transition: all 1s;
 }
 /** buttons position **/
-#Arrows{
+#arrows{
 	display: flex;
 	justify-content:space-between;
 	height: 30px;
@@ -272,7 +263,7 @@ header .jumbotron {
 	width: 100%;
 }
 /** buttons color  **/
-#Arrows i{
+#arrows i{
 	background-color: transparent;
 	color: transparent;
 	cursor: pointer;
@@ -282,15 +273,15 @@ header .jumbotron {
 	transition: background-color .5s, color .5s;
 }
 /** size of button padding **/
-#Arrows i:first-of-type{ 
+#arrows i:first-of-type{ 
 	padding-right: 15px;
 }
 
-#Arrows i:last-of-type{ 
+#arrows i:last-of-type{ 
 	padding-left: 15px;
 }
 /** when button is hovered  **/
-#Arrows i:hover{
+#arrows i:hover{
 	background-color: rgba(28,29,33, .75);
 	color: #EEEFF7;
 }
