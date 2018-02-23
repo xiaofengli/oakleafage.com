@@ -1,12 +1,5 @@
- <script>
-       var slideIndex = 1;
-       showDivs(slideIndex);
-       
-       function plusDivs(n) {
-         showDivs(slideIndex += n);
-       }
-       
-       function showDivs(n) {
+<script>
+function showDivs(n) {
          var i;
          var x = document.getElementsByClassName("mySlides");
          if (n > x.length) {slideIndex = 1}    
@@ -16,9 +9,8 @@
          }
          x[slideIndex-1].style.display = "block";  
        }
-     carousel();
-
- function carousel() {
+       
+function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
@@ -28,13 +20,30 @@
     if (slideIndex > x.length) {slideIndex = 1} 
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 8000); // Change image every 2 seconds
- }
+}
+ 
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
 
- $(function() {
+var slideIndex = 1;
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+  showDivs(slideIndex);
+  carousel();      
+});
+
+/*
+  What does this do?
+  We might want to add text to the images later
+$(function() {
   $('.footer-links-holder h3').click(function () {
     $(this).parent().toggleClass('active');
   });
- });
+});
+
+*/
+
 </script>
 
 <div class="slideshow">

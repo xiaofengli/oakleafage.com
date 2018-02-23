@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -82,13 +82,13 @@ header .jumbotron {
 
 .maincontent {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
+  font-size: 15px;
   line-height: 160%;
 }
 
 .sidebar {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
+  font-size: 15px;
   line-height: 130%;
 }
 
@@ -228,9 +228,7 @@ header .jumbotron {
   }
 }
 
-/** slide show **/
-
-
+/** slide show css **/
 
 .slideshow {       
 	align-items: cover;      
@@ -248,12 +246,14 @@ header .jumbotron {
 	overflow: hidden;
 	width: cover;
 }
+
 /** image size **/
 #slider img {
 	height: 620px;
 	width: 100%;
 	transition: all 1s;
 }
+
 /** buttons position **/
 #arrows {
 	display: flex;
@@ -262,6 +262,7 @@ header .jumbotron {
 	position: absolute;
 	width: 100%;
 }
+
 /** buttons color  **/
 #arrows i {
 	background-color: transparent;
@@ -272,6 +273,7 @@ header .jumbotron {
   margin-block-end:0px;
 	transition: background-color .5s, color .5s;
 }
+
 /** size of button padding **/
 #arrows i:first-of-type { 
 	padding-right: 15px;
@@ -280,12 +282,16 @@ header .jumbotron {
 #arrows i:last-of-type { 
 	padding-left: 15px;
 }
+
 /** when button is hovered  **/
 #arrows i:hover {
 	background-color: rgba(28,29,33, .75);
 	color: #EEEFF7;
 }
+/*End of slider image*/
 
+
+/* Footer setup*/
 .footer-distributed {
 	background-color: #FFEB8B;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -301,38 +307,36 @@ header .jumbotron {
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed .footer-right {
 	display: inline-block;
 	vertical-align: top;
 }
 
 /* Footer left */
-
-.footer-distributed .footer-left{
+.footer-distributed .footer-left {
 	width: 40%;
+	text-align: center;
 }
 
-/* The company logo */
-
-.footer-distributed h3{
+.footer-distributed h3 {
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
 }
 
-.footer-distributed h3 span{
+.footer-distributed h3 span {
 	color:  #C1343F;
 }
 
 /* Footer links */
-
-.footer-distributed .footer-links{
+.footer-distributed .footer-links {
 	color:  #C1343F;
-	margin: 20px 0 12px;
+	margin: 20px 0px 12px;
 	padding: 0;
+	list-style-type:none
 }
 
-.footer-distributed .footer-links a{
+.footer-distributed .footer-links a {
 	display:inline-block;
 	line-height: 1.8;
 	text-decoration: none;
@@ -347,7 +351,6 @@ header .jumbotron {
 }
 
 /* Footer Center */
-
 .footer-distributed .footer-center {
 	width: 35%;
 }
@@ -383,11 +386,10 @@ header .jumbotron {
 	line-height:2;
 }
 
-.footer-distributed .footer-center p a{
+.footer-distributed .footer-center p a {
 	color:  #5383d3;
 	text-decoration: none;
 }
-
 
 /* Footer Right */
 .footer-distributed .footer-right {
