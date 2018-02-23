@@ -18,7 +18,8 @@ app.set('port', process.env.PORT || 3000 );
 app.set('appData', dataFile);
 app.set('termOfUse',termOfUse);
 app.set('privacy',privacyStatement);
-//local variables shared by all the view pages
+
+//Local variables shared by all the view pages
 app.locals.siteTitle = 'Oak Leafage Education Consulting';
 app.locals.allServices = dataFile.services;
 
@@ -38,7 +39,6 @@ app.use(require('./routes/api'));
 app.use(require('./routes/chat'));
 app.use(require('./routes/termofuse'));
 app.use(require('./routes/privacy'));
-
 
 // Set up server event, please note the callback function
 var server = app.listen(app.get('port'), function() {
