@@ -229,7 +229,6 @@ header .jumbotron {
 }
 
 /** slide show css **/
-
 .slideshow {       
 	align-items: cover;      
 	display: flex;
@@ -269,8 +268,7 @@ header .jumbotron {
 	color: transparent;
 	cursor: pointer;
 	height: 30px;
-	
-  margin-block-end:0px;
+	margin-block-end:0px;
 	transition: background-color .5s, color .5s;
 }
 
@@ -290,8 +288,9 @@ header .jumbotron {
 }
 /*End of slider image*/
 
-
-/* Footer setup*/
+/* Footer setup
+http://tool.c7sky.com/webcolor/
+*/
 .footer-distributed {
 	background-color: #FFEB8B;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
