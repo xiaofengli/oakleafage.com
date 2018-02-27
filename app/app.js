@@ -9,6 +9,27 @@ var dataFile = require('./data/data.json');
 var privacyStatement = require('./data/privacy.json');
 var termOfUse = require('./data/termofuse.json');
 
+/*i18n stuff*/
+var cookieParser = require('cookie-parser');
+app.use(cookieParser());
+var session = require('express-session')
+app.use(session({
+	  secret: 'secret',
+	  saveUninitialized: true,
+	  resave: true
+	}));
+
+//<--- use here. Specify translations files path.
+var i18n=require("i18n-express");
+var path = require('path');
+app.use(i18n({
+	translationsPath: path.join(__dirname, 'data/i18n'),
+	  siteLangs: ["cn","es"],
+	  textsVarName: 'translation'
+	}));
+
+/* end of i18n*/
+
 /*Set server to run on tcp port 3000, app is like a big hashmap
   Start your server at: localhost:3000
 */
@@ -34,11 +55,14 @@ app.set('views', 'app/views'); // web rending, .jsp
 app.use(express.static('app/public'));
 app.use(require('./routes/index'));
 app.use(require('./routes/services'));
+app.use(require('./routes/termofuse'));
+app.use(require('./routes/privacy'));
+
+/* Take out these advanced features
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
 app.use(require('./routes/chat'));
-app.use(require('./routes/termofuse'));
-app.use(require('./routes/privacy'));
+*/
 
 // Set up server event, please note the callback function
 var server = app.listen(app.get('port'), function() {

@@ -5,7 +5,7 @@ router.get('/services', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = data.services;
-
+  var sessionLang = req.i18n_lang;
   data.services.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
@@ -14,7 +14,8 @@ router.get('/services', function(req, res) {
     pageTitle: 'Services',
     artwork: pagePhotos,
     services: pageServices,
-    pageID: 'serviceList'
+    pageID: 'serviceList',
+    lang: sessionLang
   });
 });
 
