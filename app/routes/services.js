@@ -4,9 +4,9 @@ var router = express.Router();
 router.get('/services', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
-  var pageServices = data.services;
+  var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
   var sessionLang = req.i18n_lang;
-  data.services.forEach(function(item) {
+  pageServices.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
 
@@ -23,8 +23,8 @@ router.get('/services/:serviceid', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = [];
-
-  data.services.forEach(function(item) {
+  var services = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
+   services.forEach(function(item) {
     if (item.shortname == req.params.serviceid) {
     	pageServices.push(item);
       pagePhotos = pagePhotos.concat(item.artwork);

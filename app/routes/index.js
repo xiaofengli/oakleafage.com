@@ -6,10 +6,10 @@ var router = express.Router();
 router.get('/', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
-  var pageServices = data.services;
+  var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
 
   // Functional programing, lambda calculus
-  data.services.forEach(function(item) {
+  data.services.cn.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
 

@@ -42,7 +42,9 @@ app.set('privacy',privacyStatement);
 
 //Local variables shared by all the view pages
 app.locals.siteTitle = 'Oak Leafage Education Consulting';
-app.locals.allServices = dataFile.services;
+
+// This is a hack, please fix it
+app.locals.allServices = dataFile.services.cn;
 
 /*
  *  MVC, model, view, controller.
@@ -69,13 +71,15 @@ var server = app.listen(app.get('port'), function() {
   console.log('Listening on port ' + app.get('port'));
 });
 
-// Set up chat server, please do not pay attention now
+// Set up chat server, comment out this advanced feature
+/*
 io.attach(server);
 io.on('connection', function(socket) {
   socket.on('postMessage', function(data) {
     io.emit('updateMessages', data);
   });
 });
+*/
 
 // Enable server hotplug feature, save and take in effect
 reload(server, app);
