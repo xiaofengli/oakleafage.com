@@ -5,7 +5,6 @@ router.get('/services', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
-  var sessionLang = req.i18n_lang;
   pageServices.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.artwork);
   });
@@ -15,7 +14,7 @@ router.get('/services', function(req, res) {
     artwork: pagePhotos,
     services: pageServices,
     pageID: 'serviceList',
-    lang: sessionLang
+    lang: req.i18n_lang
   });
 });
 
@@ -35,7 +34,8 @@ router.get('/services/:serviceid', function(req, res) {
     pageTitle: 'Service Info',
     artwork: pagePhotos,
     services: pageServices,
-    pageID: 'serviceDetail'
+    pageID: 'serviceDetail',
+    lang: req.i18n_lang
   });
 });
 
