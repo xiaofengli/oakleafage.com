@@ -2,7 +2,7 @@
 var express = require('express');
 var reload = require('reload');
 var app = express();
-var io = require('socket.io')();
+//var io = require('socket.io')();
 
 //Load data
 var dataFile = require('./data/data.json');

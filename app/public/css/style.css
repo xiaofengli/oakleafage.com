@@ -116,6 +116,12 @@ header .jumbotron {
   line-height: 160%;
 }
 
+.serviceslist ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 160%;
+}
+
 #serviceList .serviceslist-img {
   margin-right: 20px;
 }
@@ -133,7 +139,8 @@ header .jumbotron {
 }
 
 #serviceDetail .serviceslist-img {
-  margin: 20px 0;
+  margin: 20px 20px 0px 0px; /*keep distance of 20px to the text on the right*/
+  border-radius: 10px; /*round cirle*/
 }
 
 .form-control {
