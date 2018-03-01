@@ -6,12 +6,12 @@ router.get('/services', function(req, res) {
   var pagePhotos = [];
   var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
   pageServices.forEach(function(item) {
-    pagePhotos = pagePhotos.concat(item.artwork);
+    pagePhotos = pagePhotos.concat(item.image);
   });
 
   res.render('services', {
     pageTitle: 'Services',
-    artwork: pagePhotos,
+    image: pagePhotos,
     services: pageServices,
     pageID: 'serviceList',
     lang: req.i18n_lang
@@ -26,13 +26,13 @@ router.get('/services/:serviceid', function(req, res) {
    services.forEach(function(item) {
     if (item.shortname == req.params.serviceid) {
     	pageServices.push(item);
-      pagePhotos = pagePhotos.concat(item.artwork);
+      pagePhotos = pagePhotos.concat(item.image);
     }
   });
 
   res.render('services', {
     pageTitle: 'Service Info',
-    artwork: pagePhotos,
+    image: pagePhotos,
     services: pageServices,
     pageID: 'serviceDetail',
     lang: req.i18n_lang

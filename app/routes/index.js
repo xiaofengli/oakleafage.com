@@ -9,12 +9,12 @@ router.get('/', function(req, res) {
   var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
   // Functional programing, lambda calculus
   data.services.cn.forEach(function(item) {
-    pagePhotos = pagePhotos.concat(item.artwork);
+    pagePhotos = pagePhotos.concat(item.image);
   });
 
   res.render('index', {
     pageTitle: 'Home',
-    artwork: pagePhotos,
+    image: pagePhotos,
     services: pageServices,
     pageID: 'home'
   });

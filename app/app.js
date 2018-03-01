@@ -6,6 +6,7 @@ var app = express();
 
 //Load data
 var dataFile = require('./data/data.json');
+
 var privacyStatement = require('./data/privacy.json');
 var termOfUse = require('./data/termofuse.json');
 
