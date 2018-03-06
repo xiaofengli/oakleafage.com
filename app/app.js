@@ -25,7 +25,7 @@ var i18n=require("i18n-express");
 var path = require('path');
 app.use(i18n({
 	translationsPath: path.join(__dirname, 'data/i18n'),
-	  siteLangs: ["cn","es"],
+	  siteLangs: ["cn","en"],
 	  textsVarName: 'translation'
 	}));
 
