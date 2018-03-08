@@ -60,6 +60,7 @@ app.use(require('./routes/index'));
 app.use(require('./routes/services'));
 app.use(require('./routes/termofuse'));
 app.use(require('./routes/privacy'));
+app.use(require('./routes/cases'));
 
 /* Take out these advanced features
 app.use(require('./routes/feedback'));
