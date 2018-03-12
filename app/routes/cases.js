@@ -1,19 +1,19 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/services', function(req, res) {
+router.get('/cases', function(req, res) {
   var data = req.app.get('appData');
   var pagePhotos = [];
-  var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
+  var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.services.en;
   pageServices.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.image);
   });
 
-  res.render('services', {
-    pageTitle: 'Services',
+  res.render('cases', {
+    pageTitle: 'cases',
     image: pagePhotos,
     services: pageServices,
-    pageID: 'serviceList',
+    pageID: 'cases',
     lang: req.i18n_lang
   });
 });
