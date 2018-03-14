@@ -6,7 +6,6 @@ var app = express();
 
 //Load data
 var dataFile = require('./data/data.json');
-
 var privacyStatement = require('./data/privacy.json');
 var termOfUse = require('./data/termofuse.json');
 
@@ -28,7 +27,6 @@ app.use(i18n({
 	  siteLangs: ["cn","en"],
 	  textsVarName: 'translation'
 	}));
-
 /* end of i18n*/
 
 /*Set server to run on tcp port 3000, app is like a big hashmap
@@ -69,9 +67,9 @@ app.use(require('./routes/chat'));
 */
 
 // Set up server event, please note the callback function
-var server = app.listen(app.get('port'), function() {
-  console.log('Listening on port ' + app.get('port'));
-});
+var server = app.listen(app.get('port'),
+		(req, res) => {console.log('Listening on port ' + app.get('port'));}
+		     );
 
 // Set up chat server, comment out this advanced feature
 /*
