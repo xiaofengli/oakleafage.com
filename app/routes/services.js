@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/services', function(req, res) {
+router.get('/services', (req, res) => {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
@@ -18,7 +18,7 @@ router.get('/services', function(req, res) {
   });
 });
 
-router.get('/services/:serviceid', function(req, res) {
+router.get('/services/:serviceid', (req, res) => {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = [];

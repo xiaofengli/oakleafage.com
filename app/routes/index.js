@@ -3,7 +3,7 @@ var router = express.Router();
 
 // This is controller, which is index.html's root url endpoint
 
-router.get('/', function(req, res) {
+router.get('/', (req, res) => {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.services.en;
