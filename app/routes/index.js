@@ -7,6 +7,7 @@ router.get('/', (req, res) => {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = req.app.get('i18n') === 'CN' ? data.services.cn : data.services.en;
+  //console.log(req.app.get('i18n'));
   // Functional programing, lambda calculus
   data.services.cn.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.image);

@@ -7,27 +7,21 @@ var requestIp = require('request-ip');
 //var io = require('socket.io')();
 var geo
 var ip
-/*
+
 var myLogger = function (req, res, next) {
   ip=requestIp.getClientIp(req)
   if (ip=='::1'){
     ip="207.97.227.239";
   }
-  
   geo = geoip.lookup(ip).country;
   
-  console.log(ip)
+  //console.log(ip)
+  app.set('i18n',geo);
   next()
 }
-*/
-var http = require('http');
-var requestCountry = require('request-country');
-var server = http.createServer(function(req, res) {
-  console.log(requestCountry(req));
-  // If it cannot detect country code from request ip, 
-  // the function return false. 
-});
-//app.use(myLogger);
+
+
+app.use(myLogger);
 
 // inside middleware handler
 /*
@@ -95,7 +89,7 @@ app.set('port', process.env.PORT || 3000 );
 app.set('appData', dataFile);
 app.set('termOfUse',termOfUse);
 app.set('privacy',privacyStatement);
-app.set('i18n',geo);
+
 
 //Local variables shared by all the view pages
 app.locals.siteTitle = 'Oak Leafage Education Consulting';
