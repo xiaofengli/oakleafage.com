@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
     services: pageServices,
     pageID: 'home'
   });
-  //console.log(req.i18n_lang);
+ 
 });
 
 module.exports = router;
