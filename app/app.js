@@ -3,15 +3,29 @@ var express = require('express');
 var reload = require('reload');
 var app = express();
 var geoip = require('geoip-lite');
-//var io = require('socket.io')();
-
-
 var requestIp = require('request-ip');
+//var io = require('socket.io')();
+var geo
+var ip
+var myLogger = function (req, res, next) {
+  ip=requestIp.getClientIp(req)
+  if (ip=='::1'){
+    ip="207.97.227.239";
+  }
+  
+  geo = geoip.lookup(ip).country;
+  
+  //console.log(ip)
+  next()
+}
+
+
+app.use(myLogger);
 
 // inside middleware handler
-
+/*
 var getClientIp = function(req) {
-	sadsadasdasd
+	//sadsadasdasd
   var ipAddress = req.connection.remoteAddress;
 if (!ipAddress) {
     return '';
@@ -24,10 +38,12 @@ return ipAddress;
 };
 
 app.use(function(req, res, next) {
+
+  //slksajlkdjaksljl
   var ipAddress = getClientIp(req);
   console.log(ipAddress);
 });
-
+*/
 
 
 
@@ -37,13 +53,12 @@ var privacyStatement = require('./data/privacy.json');
 var termOfUse = require('./data/termofuse.json');
 
 
-/* Input IP and then output contry, that ip is just for checking purpose
-var geoip = require('geoip-lite');
+ //Input IP and then output contry, that ip is just for checking purpose
+
  
-var ip = "207.97.227.239";
-var geo = geoip.lookup(ip);
- 
-console.log(geo);
+
+
+
 /*i18n stuff*/
 var cookieParser = require('cookie-parser');
 app.use(cookieParser());
@@ -73,6 +88,7 @@ app.set('port', process.env.PORT || 3000 );
 app.set('appData', dataFile);
 app.set('termOfUse',termOfUse);
 app.set('privacy',privacyStatement);
+app.set('i18n',geo);
 
 //Local variables shared by all the view pages
 app.locals.siteTitle = 'Oak Leafage Education Consulting';
