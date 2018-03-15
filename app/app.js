@@ -7,6 +7,7 @@ var requestIp = require('request-ip');
 //var io = require('socket.io')();
 var geo
 var ip
+/*
 var myLogger = function (req, res, next) {
   ip=requestIp.getClientIp(req)
   if (ip=='::1'){
@@ -15,12 +16,18 @@ var myLogger = function (req, res, next) {
   
   geo = geoip.lookup(ip).country;
   
-  //console.log(ip)
+  console.log(ip)
   next()
 }
-
-
-app.use(myLogger);
+*/
+var http = require('http');
+var requestCountry = require('request-country');
+var server = http.createServer(function(req, res) {
+  console.log(requestCountry(req));
+  // If it cannot detect country code from request ip, 
+  // the function return false. 
+});
+//app.use(myLogger);
 
 // inside middleware handler
 /*
