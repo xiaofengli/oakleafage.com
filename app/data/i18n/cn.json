@@ -5,13 +5,13 @@
 "CASES":"成功案例",
 "MAIN_PAGE_TEXT": {
 	"PART1": {"header": "关于橡叶教育",
-	          "text": "<p>橡叶教育成总部坐落在美国东海岸景色秀丽的新泽西州，距离纽约市开车约30分钟，距离费城大概开车一个小时。2008年橡叶教育成立于伊利诺伊州恶霸那香槟市，多年来一直以培养精英中国留学生为己任，专注于精英式高端的留学服务。已经迎来并送走了一届又一届的学生。我们的学生分布于美国各地，很多已经定居美国，有很多已经返回中国并在很多重要的工作岗位中开始了自己的职业生涯。</p><p>橡叶教育帮助广大留学生提供高中留学服务，大学留学服务，大学转学服务及留学生课程补习业务。近年来我们和很多国内的教育机构联合举行小学生夏令营，冬令营北美游学服务，希望能让更多的还未出过留学的学生有机会提前看看国外的学习和生活，风光和人文文化。</p>"
+	          "text": "<p>橡叶教育成总部坐落在美国东海岸景色秀丽的新泽西州，距离纽约市开车约三十分钟，距离费城大概开车一个小时。橡叶教育前身成立于2008年伊利诺伊州厄巴纳香槟市，多年来我们一直以培养精英中国留学生为己任，专注于精英式高端的留学服务。迎来了一批又一批的学生，又送走了一批又一批的学生。我们的学生目前于美国各地，很多已经定居美国，有很多已经返回中国并在很多重要的工作岗位中开始了自己的职业生涯。</p><p>橡叶教育帮助广大留学生提供高中留学服务，大学留学服务，大学转学服务及留学生课程补习业务。近年来我们和很多国内的教育机构联合举行小学生夏令营，冬令营北美游学服务，希望能让更多的还未出过留学的学生有机会提前看看国外的学习和生活，风光和人文文化。</p>"
 	         },
-	"PART2": {"header": "Get Busy!",
-	         "text": "<p>If you want to keep up with what's going on with the group, <a href='http://www.meetup.com/rouxmeet'>join our meetup group</a>, <a href='http://www.twitter.com/rouxmeet'>follow us on twitter</a>. If you're in FaceBook, you can also <a href='http://www.facebook.com/rouxmeet'>join our FaceBook group</a>.</p>"
+	"PART2": {"header": "专注于大学升学学科指导",
+	         "text": "<p>我们的擅长于美国高中学生留学的管理，这也是我们有别于其他中介服务的原因。这其中不仅仅包括学生的衣食住行，我们有强大的老师团队去跟进学生平时的学习生活。在小留学生需要帮助的时候，我们可以安排课程补习，作业检查和课外辅导。在升大学的时候，我们为学生们组织讲座，让学生们了解热门专业，理解自己的长处和兴趣所在，并且帮助学生申请美国名牌大学。</p>"
 			 },
-	"PART3": {"header": "Who should come?",
-				"text": "<ul><li>Anybody interested in art and the creative industry</li><li>Painters, sculptors, photographers and graphic artists</li><li>Those interested in meeting and making a connection with others in the local art scene.</li></ul>"
+	"PART3": {"header": "专注于大学各种专业的申请",
+			  "text": "<ul><li>我们不仅专注于理工科，医学，金融会计，建筑等传统专业。</li><li>我们有大量的申请经验在音乐，美术等艺术专业的成功申请经验。</li><li>根据在中国或者美国大专，大学在读生的专业情况，提出更好的升学方案，帮助学生找到一个专业更好的大学。</li><p>"
 			 }		
 },
 "SIDEBAR_TEXT": {
