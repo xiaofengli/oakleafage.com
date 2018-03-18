@@ -3,11 +3,16 @@
   <p class="sidebar-body">
   <%=translation.SCHOOL_LIST_TEXT.text%>
   </p>
+
   <div class="pixgrid clearfix">
     <% if (image.length > 0) { %>
     <% for (i=0; i< image.length; i++) { %>
-        <img src="/images/schools/<%= image[i] %>" alt="School <%= i %>">
+        <img src="/images/schools/<%= image[i] %>" alt="School <%= i %>" >
+        <div class="overlay">My Name is John</div>
     <% } %>
     <% } %>
   </div>
+  
 </article>
+
+
