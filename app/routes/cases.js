@@ -4,7 +4,7 @@ var router = express.Router();
 router.get('/cases', (req, res) => {
   var data = req.app.get('appData');
   var pagePhotos = [];
-  var pageServices = req.i18n_lang === 'cn' ? data.services.cn : data.services.en;
+  var pageServices = req.app.get('i18n')  === 'CN' ? data.services.cn : data.services.en;
   pageServices.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.image);
   });
@@ -22,7 +22,7 @@ router.get('/services/:serviceid', (req, res) => {
   var data = req.app.get('appData');
   var pagePhotos = [];
   var pageServices = [];
-  var services = req.i18n_lang === 'cn' ? data.services.cn : data.service.en;
+  var services = req.app.get('i18n') === 'CN' ? data.services.cn : data.service.en;
    services.forEach(function(item) {
     if (item.shortname == req.params.serviceid) {
     	pageServices.push(item);
@@ -35,7 +35,7 @@ router.get('/services/:serviceid', (req, res) => {
     image: pagePhotos,
     services: pageServices,
     pageID: 'serviceDetail',
-    lang: req.i18n_lang
+    lang: req.app.get('i18n')
   });
 });
 
