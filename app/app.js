@@ -58,11 +58,8 @@ app.set('privacy',privacyStatement);
 
 
 //Local variables shared by all the view pages
-app.locals.siteTitle = 'Oak Leafage Education Consulting';
-
-// This is a hack, please fix it
-app.locals.allServices = dataFile.services.cn;
-
+app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
+app.locals.SERVICES_NUM = 3; //this is the number of services to show in the index.ejs page.
 /*
  *  MVC, model, view, controller.
  * */

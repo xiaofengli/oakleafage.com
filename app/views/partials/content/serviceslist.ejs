@@ -1,13 +1,14 @@
 <article class="serviceslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
   
-  
   <div class="container">
-      
     <div class="row">
-        
-        <% services.forEach(function(item) {%>
-          
+        <% var counter = 0; %>
+        <% for (x in services) {
+             item = services[x];
+         %>
+         
         <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
+          <% if (counter < SERVICES_NUM) { %>
           <h3 class="serviceslist-title"><%= item.title %></h3>
           <h5 class="serviceslist-name">with 
                  <a href="/services/<%= item.shortname %>"><%= item.name %></a></h5>
@@ -18,7 +19,10 @@
                 <img class="serviceslist-img img-circle" 
                      src="/images/services/<%= item.shortname %>_tn.jpg" 
                      alt="Photo of <%= item.name %>"></a>
-              <% } %>
+              <%  
+                 }
+                 counter++; 
+               %>
               <% if (pageID == 'serviceList') { %>
                 <img class="serviceslist-img img-circle pull-left" 
                      src="/images/services/<%= item.shortname %>_tn.jpg" 
@@ -33,15 +37,15 @@
             </a>
             <% if (pageID !== 'home') { %>
               <% if (pageID == 'serviceList') { %>
+              <%= 'debug'%>
                 <%= item.summary %>
               <% } else { %>
                 <%- item.description %>
               <% } %>
             <% } %>
           </p>
-         
         </div>
-        <%  }); %>
+        <%  }}; %>
     </div>    <!-- row -->
   </div>      <!-- container -->
   
