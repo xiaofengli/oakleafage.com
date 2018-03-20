@@ -74,7 +74,10 @@ app.use(require('./routes/services'));
 app.use(require('./routes/termofuse'));
 app.use(require('./routes/privacy'));
 app.use(require('./routes/cases'));
-
+app.use(require('./routes/feedback'));
+app.use(require('./routes/contactus'));
+app.use(require('./routes/news'));
+app.use(require('./routes/aboutus'));
 /* Take out these advanced features
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
