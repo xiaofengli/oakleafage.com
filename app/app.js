@@ -5,7 +5,7 @@ var app = express();
 const geoip = require('geoip-lite');
 const requestIp = require('request-ip');
 
-//var io = require('socket.io')();
+var io = require('socket.io')();
 
 var myLogger = (req, res, next) => {
   let ip=requestIp.getClientIp(req)
@@ -74,10 +74,11 @@ app.use(require('./routes/services'));
 app.use(require('./routes/termofuse'));
 app.use(require('./routes/privacy'));
 app.use(require('./routes/cases'));
-app.use(require('./routes/feedback'));
+app.use(require('./routes/survey'));
 app.use(require('./routes/contactus'));
 app.use(require('./routes/news'));
 app.use(require('./routes/aboutus'));
+app.use(require('./routes/api'));
 /* Take out these advanced features
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
@@ -90,14 +91,14 @@ var server = app.listen(app.get('port'),
 		     );
 
 // Set up chat server, comment out this advanced feature
-/*
+
 io.attach(server);
 io.on('connection', function(socket) {
   socket.on('postMessage', function(data) {
     io.emit('updateMessages', data);
   });
 });
-*/
+
 
 // Enable server hotplug feature, save and take in effect
 reload(server, app);

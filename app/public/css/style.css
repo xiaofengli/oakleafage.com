@@ -223,7 +223,7 @@ header .jumbotron {
 }
 
 .pixgrid img {
-  display: block;
+  
   padding: 5px;
   float: left;
   width: 33.33%;
@@ -231,16 +231,17 @@ header .jumbotron {
 }
 
 .againtbox {
-  position: relative;
-  width: 50%;
-  max-width: 300px;
+  
+  width: 100%;
+  display:block;
+  height:100%;
 }
 
 .image {
   display: block;
   padding: 0px;
   float: left;
-  width: 100%;
+  width: 33.33%;
   border-radius: 10px;
 }
 
@@ -261,7 +262,7 @@ header .jumbotron {
 }
 
 .againtbox:hover .overlay {
-  opacity: 1;
+  opacity: 100;
 }
 
 @media (min-width: 500px) and (max-width: 768px) {

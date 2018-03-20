@@ -3,9 +3,9 @@ var router = express.Router();
 
 router.get('/survey', function(req, res) {
 
-  res.render('feedback', {
+  res.render('survey', {
     pageTitle: 'Survey',
-    pageID: 'servey'
+    pageID: 'feedback'
   });
 
 });
