@@ -1,15 +1,6 @@
 $(function() {
-  // $.getJSON('api', updateFeedback);
- /*
-   $('.feedback-form').submit(function(e) {
-     e.preventDefault();
-     $.post('api', {
-       name: $('#feedback-form-name').val(),
-       title: $('#feedback-form-title').val(),
-       message: $('#feedback-form-message').val()
-     }, updateFeedback);
-   });
- */
+
+	/* not working
  
    $('.feedback-form').submit(function(e) {
      e.preventDefault();
@@ -37,6 +28,22 @@ $(function() {
        
      });
    });
+   
+   */
+   
+   
+   // $.getJSON('api', updateFeedback);
+   /*
+     $('.feedback-form').submit(function(e) {
+       e.preventDefault();
+       $.post('api', {
+         name: $('#feedback-form-name').val(),
+         title: $('#feedback-form-title').val(),
+         message: $('#feedback-form-message').val()
+       }, updateFeedback);
+     });
+   */
+   
  /*
    $('.feedback-messages').on('click', function(e) {
        if (e.target.className == 'glyphicon glyphicon-remove') {

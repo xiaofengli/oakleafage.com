@@ -17,6 +17,7 @@
     "fs": "0.0.1-security",
     "geolang-express": "^1.0.0",
     "i18n-express": "^1.1.3",
+    "multer": "^1.3.0",
     "path": "^0.12.7",
     "reload": "^1.0.0",
     "request-ip": "^2.0.2",

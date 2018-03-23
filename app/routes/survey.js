@@ -1,15 +1,17 @@
 var express = require('express');
 var router = express.Router();
 var multer  = require('multer')
-var uploadProfileImgs = multer({dest : './uploads/'}).single('avatar');
+var path = require('path')
+
+//var uploadProfileImgs = multer({dest : './uploads/'}).single('photo');
+
+
 var bodyParser = require('body-parser');
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: false }));
 
 
-
 router.get('/survey', function(req, res) {
-
   res.render('survey', {
     pageTitle: 'Survey',
     pageID: 'feedback'
@@ -17,18 +19,34 @@ router.get('/survey', function(req, res) {
 
 });
 
-
-router.post('/survey', function (req, res) {
-  sadkjaskldjsakjdklasjdklasjldjaksljldkj
-  uploadProfileImgs(req, res, function (err) {
-    if (err) {
-      console.log(err.message);
-      // An error occurred when uploading
-      return
-    }
-    console.log('Everything went fine');
-    // Everything went fine
-  })
+var storage = multer.diskStorage({
+	destination: function(req, file, callback) {
+		callback(null, './uploads')
+	},
+	filename: function(req, file, callback) {
+		console.log(file)
+		callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname))
+	}
 })
+
+
+
+router.post('/survey', function(req,res){
+	var upload = multer({
+		storage: storage,
+		fileFilter: function(req, file, callback) {
+			var ext = path.extname(file.originalname)
+			console.log(ext);
+			if (ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg') {
+				return callback(res.end('Only images are allowed'), null)
+			}
+			callback(null, true)
+		}
+	}).single('photo')
+	upload(req, res, function(err) {
+		res.end('File is uploaded')
+	})
+	res.status(204).end();
+});
 
 module.exports = router;
