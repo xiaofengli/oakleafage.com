@@ -12,6 +12,22 @@ var pixGrid = function() {
             myOverlay.style.top = 0, myOverlay.style.backgroundColor = "rgba(0,0,0,0.7)", myOverlay.style.cursor = "pointer", 
             myOverlay.style.width = window.innerWidth + "px", myOverlay.style.height = window.innerHeight + "px", 
             myOverlay.style.top = window.pageYOffset + "px", myOverlay.style.left = window.pageXOffset + "px";
+            
+
+            var mytext=document.createElement("div");
+            mytext.id="mytext";
+            mytext.style.position="absolute";
+            mytext.style.top=600+"px";
+            mytext.style.left=200+"px";
+            mytext.style.fontSize="x-large";
+            mytext.style.backgroundColor="black";
+            mytext.style.height=200+"px";
+            mytext.style.width=1000+"px";
+            mytext.style.opacity=0.7;
+            
+            mytext.innerText="now u see me, now u don't, can u see me now, please see me now, pls,pls,pls";
+            mytext.style.color="white";
+           
             var imageSrc = e.target.src, largeImage = document.createElement("img");
             largeImage.id = "largeImage", largeImage.src = imageSrc.substr(0, imageSrc.length - 7) + ".jpg", 
             largeImage.style.display = "block", largeImage.style.position = "absolute", largeImage.addEventListener("load", function() {
@@ -19,6 +35,8 @@ var pixGrid = function() {
                 this.height = this.height * this.ratio, this.width = this.width * this.ratio), this.width > window.innerWidth && (this.ratio = window.innerWidth / this.width, 
                 this.height = this.height * this.ratio, this.width = this.width * this.ratio), centerImage(this), 
                 myOverlay.appendChild(largeImage);
+                myOverlay.appendChild(mytext);
+               
             }), largeImage.addEventListener("click", function() {
                 myOverlay && (window.removeEventListener("resize", window, !1), window.removeEventListener("scroll", window, !1), 
                 myOverlay.parentNode.removeChild(myOverlay));
@@ -29,6 +47,7 @@ var pixGrid = function() {
                 myOverlay.style.top = window.pageYOffset + "px", myOverlay.style.left = window.pageXOffset + "px", 
                 centerImage(largeImage));
             }, !1);
+            
         }
     }, !1);
 }();
