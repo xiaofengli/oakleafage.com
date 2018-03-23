@@ -1,11 +1,20 @@
 <article class="sidebar">
-  <h1 class="sidebar-title"><% if (lang === 'cn') { %>美国的院校 <%} else {%> More Schools<%}%></h1>
-  <p class="sidebar-body">While you attend the conference, head over to our gallery where you can check out some of the work from our speakers.</p>
+  <h1 class="sidebar-title"> <%= translation.SCHOOL_LIST_TEXT.header %> </h1>
+  <p class="sidebar-body">
+  <%=translation.SCHOOL_LIST_TEXT.text%>
+  </p>
+
   <div class="pixgrid clearfix">
     <% if (image.length > 0) { %>
     <% for (i=0; i< image.length; i++) { %>
-        <img src="/images/schools/<%= image[i] %>" alt="School <%= i %>">
+      
+        <img src="/images/schools/<%= image[i] %>" alt="School <%= i %>" >
+        
+       
     <% } %>
     <% } %>
   </div>
+  
 </article>
+
+

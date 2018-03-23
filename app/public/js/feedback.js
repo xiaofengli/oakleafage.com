@@ -1,6 +1,6 @@
 $(function() {
-  $.getJSON('api', updateFeedback);
-
+ // $.getJSON('api', updateFeedback);
+/*
   $('.feedback-form').submit(function(e) {
     e.preventDefault();
     $.post('api', {
@@ -9,7 +9,35 @@ $(function() {
       message: $('#feedback-form-message').val()
     }, updateFeedback);
   });
+*/
 
+  $('.feedback-form').submit(function(e) {
+    e.preventDefault();
+    $.post('api', {
+      firstname: $('#feedback-form-firstname').val(),
+      lastname: $('#feedback-form-lastname').val(),
+      email: $('#feedback-form-email').val(),
+      phone: $('#feedback-form-phone').val(),
+      DOB:$('#feedback-form-DOB').val(),
+      eschoolname:$('#feedback-form-eschoolname').val(),
+      eschoolstart:$('#feedback-form-eschoolstart').val(),
+      eschoolend:$('#feedback-form-eschoolend').val(),
+      mschoolname:$('#feedback-form-mschoolname').val(),
+      mschoolstart:$('#feedback-form-mschoolstart').val(),
+      mschoolend:$('#feedback-form-mschoolend').val(),
+      hschoolname:$('#feedback-form-hschoolname').val(),
+      hschoolstart:$('#feedback-form-hschoolstart').val(),
+      hschoolend:$('#feedback-form-hschoolend').val(),
+      cschoolname:$('#feedback-form-cschoolname').val(),
+      cschoolstart:$('#feedback-form-cschoolstart').val(),
+      cschoolend:$('#feedback-form-cschoolend').val(),
+      comments: $('#feedback-form-comments').val(),
+      passport: $('#feedback-form-passport').val()
+      
+      
+    });
+  });
+/*
   $('.feedback-messages').on('click', function(e) {
       if (e.target.className == 'glyphicon glyphicon-remove') {
         $.ajax({
@@ -19,7 +47,8 @@ $(function() {
         }); //ajax
       } // the target is a delete button
   }); //feedback messages
-
+*/
+/*
   function updateFeedback(data) {
    var output = '';
    $.each(data,function(key, item) {
@@ -37,4 +66,5 @@ $(function() {
    });
    $('.feedback-messages').html(output);
   }
+  */
 });

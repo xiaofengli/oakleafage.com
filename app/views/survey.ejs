@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body id="<%= pageID %>">
+      <header>
+          <!-- smiling lady picture-->
+          <div class="jumbotron hidden-xs">
+          </div>
+        </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h1 class="feedback-form-title">Send us feedback</h1>
+          <form class="feedback-form",enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="feedback-form-name">First Name</label>
+              <input type="text", class="form-control" id="feedback-form-firstname" placeholder="Enter your firstname">
+            </div>
+
+            <div class="form-group">
+              <label for="feedback-form-title">Last Name</label>
+              <input type="text" class="form-control" id="feedback-form-lastname" placeholder="Enter your lastname">
+            </div>
+
+            <div class="form-group">
+                <label for="feedback-form-title">Email</label>
+                <input type="text" class="form-control" id="feedback-form-email" placeholder="Enter your Email">
+            </div>
+
+            <div class="form-group">
+                <label for="feedback-form-title">Phone</label>
+                <input type="text" class="form-control" id="feedback-form-phone" placeholder="Enter your Phone number">
+            </div>
+
+            <div class="form-group">
+                <label for="feedback-form-title"> Address</label><br>
+                <p>Street Address
+                    <span><input type="text" class="form-control" id="feedback-form-cschoolname" placeholder="Name"></span> 
+                
+                </p>
+                <p>State/Province
+                    <span><input type="text" class="form-control" id="feedback-form-cschoolstart" placeholder=""></span> 
+                </p><p>Postal Code
+                
+                    <span><input type="text" class="form-control" id="feedback-form-cschoolend" placeholder="Number"></span> 
+                    </span>
+                </p>
+    </div> 
+
+            
+
+            <div class="form-group">
+              <label for="feedback-form-title">DOB</label>
+              <input type="text" class="form-control" id="feedback-form-DOB" placeholder="MMDDYYYY">
+            </div>
+            <div class="form-group">
+            <label for="feedback-form-title">Elementary School </label>
+            <p>School Name
+                <span><input type="text" class="form-control" id="feedback-form-eschoolname" placeholder="Name"></span> 
+            
+            </p>
+            <p>Start Date
+                <span><input type="text" class="form-control" id="feedback-form-eschoolstart" placeholder="MMDDYYYY"></span> 
+            </p><p>End Date
+            
+                <span><input type="text" class="form-control" id="feedback-form-eschoolend" placeholder="MMDDYYYY"></span> 
+                </span>
+            </p>
+            </div>
+
+            <div class="form-group">
+                <label for="feedback-form-title">Middle School </label><br>
+                <p>School Name
+                    <span><input type="text" class="form-control" id="feedback-form-mschoolname" placeholder="Name"></span> 
+                
+                </p>
+                <p>Start Date
+                    <span><input type="text" class="form-control" id="feedback-form-mschoolstart" placeholder="MMDDYYYY"></span> 
+                </p><p>End Date
+                
+                    <span><input type="text" class="form-control" id="feedback-form-mschoolend" placeholder="MMDDYYYY"></span> 
+                    </span>
+                </p>
+            </div>
+
+            <div class="form-group">
+                    <label for="feedback-form-title">High School </label><br>
+                    <p>School Name
+                        <span><input type="text" class="form-control" id="feedback-form-hschoolname" placeholder="Name"></span> 
+                    
+                    </p>
+                    <p>Start Date
+                        <span><input type="text" class="form-control" id="feedback-form-hschoolstart" placeholder="MMDDYYYY"></span> 
+                    </p><p>End Date
+                    
+                        <span><input type="text" class="form-control" id="feedback-form-hschoolend" placeholder="MMDDYYYY"></span> 
+                        </span>
+                    </p>
+            </div>
+
+            <div class="form-group">
+                        <label for="feedback-form-title"> College</label><br>
+                        <p>School Name
+                            <span><input type="text" class="form-control" id="feedback-form-cschoolname" placeholder="Name"></span> 
+                        
+                        </p>
+                        <p>Start Date
+                            <span><input type="text" class="form-control" id="feedback-form-cschoolstart" placeholder="MMDDYYYY"></span> 
+                        </p><p>End Date
+                        
+                            <span><input type="text" class="form-control" id="feedback-form-cschoolend" placeholder="MMDDYYYY"></span> 
+                            </span>
+                        </p>
+            </div>        
+            
+            
+            <div class="form-group">
+                <label for="feedback-form-message">Comments</label>
+                <textarea type="text" placeholder="Enter your message, then hit the submit"  class="form-control" id="feedback-form-comments" rows="6"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="feedback-form-title">PassPort Upload</label>
+                <input type="file" name="photho" id="feedback-form-passport" accept=".jpg, .jpeg, .png">
+            </div>
+            
+            <input type="submit" class="btn btn-default pull-right">
+          </form>
+          
+        </div><!-- primary -->
+        <aside class="col-sm-8">
+          <div class="maincontent feedback">
+              <h2 class="article-title"></h2>
+              <div class="feedback-messages"></div>
+          </div>
+        </aside><!-- secondary -->
+      </div>
+      
+    </div><!-- container -->
+    <% include partials/template/jsdefaults.ejs %>
+    <% include partials/template/header.ejs %>
+    <% include partials/template/footer.ejs %>
+  </body>
+</html>

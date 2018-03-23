@@ -5,7 +5,7 @@ var app = express();
 const geoip = require('geoip-lite');
 const requestIp = require('request-ip');
 
-//var io = require('socket.io')();
+var io = require('socket.io')();
 
 var myLogger = (req, res, next) => {
   let ip=requestIp.getClientIp(req)
@@ -58,11 +58,8 @@ app.set('privacy',privacyStatement);
 
 
 //Local variables shared by all the view pages
-app.locals.siteTitle = 'Oak Leafage Education Consulting';
-
-// This is a hack, please fix it
-app.locals.allServices = dataFile.services.cn;
-
+app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
+app.locals.SERVICES_NUM = 3; //this is the number of services to show in the index.ejs page.
 /*
  *  MVC, model, view, controller.
  * */
@@ -77,7 +74,11 @@ app.use(require('./routes/services'));
 app.use(require('./routes/termofuse'));
 app.use(require('./routes/privacy'));
 app.use(require('./routes/cases'));
-
+app.use(require('./routes/survey'));
+app.use(require('./routes/contactus'));
+app.use(require('./routes/news'));
+app.use(require('./routes/aboutus'));
+app.use(require('./routes/api'));
 /* Take out these advanced features
 app.use(require('./routes/feedback'));
 app.use(require('./routes/api'));
@@ -90,14 +91,14 @@ var server = app.listen(app.get('port'),
 		     );
 
 // Set up chat server, comment out this advanced feature
-/*
+
 io.attach(server);
 io.on('connection', function(socket) {
   socket.on('postMessage', function(data) {
     io.emit('updateMessages', data);
   });
 });
-*/
+
 
 // Enable server hotplug feature, save and take in effect
 reload(server, app);

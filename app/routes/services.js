@@ -14,8 +14,7 @@ router.get('/services', (req, res) => {
     pageTitle: 'Services',
     image: pagePhotos,
     services: pageServices,
-    pageID: 'serviceList',
-    lang: req.i18n_lang
+    pageID: 'serviceList'
   });
 });
 
@@ -36,8 +35,7 @@ router.get('/services/:serviceid', (req, res) => {
     pageTitle: 'Service Info',
     image: pagePhotos,
     services: pageServices,
-    pageID: 'serviceDetail',
-    lang: req.i18n_lang
+    pageID: 'serviceDetail'
   });
 });
 
