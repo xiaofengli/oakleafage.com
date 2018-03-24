@@ -144,77 +144,6 @@ header .jumbotron {
   border-radius: 10px; /*round cirle*/
 }
 
-.form-control {
-  font-weight: 100;
-  font-size: 1.7rem;
-}
-
-.chat-form {
-  margin-top: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-}
-
-.jumbotron {
-  padding: 20px 0;
-  background-color: #FFEB8B;
-}
-
-/**  chat-display **/
-
-.chat-display {
-  min-height: 150px;
-  max-height: 40vh;
-  overflow: scroll;
-  font-size: 1.2em;
-}
-
-.chat-display p {
-  font-size: .9em;
-  padding: 0 10px;
-}
-
-.feedback, .feedback-form-title {
-  font-size: 2rem;
-}
-
-.feedback-form {
-  margin-top: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-}
-
-
-.feedback-title {
-  font-size: 1.2em;
-}
-
-.feedback-form-title {
-  font-size: 2em;
-}
-
-.feedback-name {
-  font-size: .6em;
-  font-weight: 100;
-}
-
-.feedback-message {
-  font-weight: 100;
-  font-size: .9em;
-  line-height: 120%;
-  margin-top: 5px;
-}
-
-.feedback-item {
-  border-bottom: 1px solid gray;
-  padding: 8px 0;
-}
-
-.feedback-item:last-of-type {
-  border-bottom: none;
-}
-
-
 /**  pixgrid **/
 
 .pixgrid {
@@ -223,15 +152,14 @@ header .jumbotron {
 }
 
 .pixgrid img {
-  
   padding: 5px;
   float: left;
   width: 33.33%;
   border-radius: 10px;
 }
 
+/*
 .againtbox {
-  
   width: 100%;
   display:block;
   height:100%;
@@ -249,7 +177,7 @@ header .jumbotron {
   position: absolute; 
   bottom: 0; 
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1; 
   width: 100%;
   transition: .5s ease;
@@ -264,6 +192,7 @@ header .jumbotron {
 .againtbox:hover .overlay {
   opacity: 100;
 }
+*/
 
 @media (min-width: 500px) and (max-width: 768px) {
   .pixgrid img {
@@ -429,7 +358,6 @@ http://tool.c7sky.com/webcolor/
 }
 
 
-
 /* Footer Right */
 .footer-distributed .footer-right {
 	width: 20%;
@@ -506,3 +434,91 @@ http://tool.c7sky.com/webcolor/
   background-color: #efefef;
   text-align: center;
 }
+
+.chat-form {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.jumbotron {
+  padding: 20px 0;
+  background-color: #FFEB8B;
+}
+
+/**  chat-display **/
+
+.chat-display {
+  min-height: 150px;
+  max-height: 40vh;
+  overflow: scroll;
+  font-size: 1.2em;
+}
+
+.chat-display p {
+  font-size: .9em;
+  padding: 0 10px;
+}
+
+
+/*The following style is used in survey form*/
+
+
+.form-control {
+  font-weight: 100;
+  font-size: 1.7rem;
+}
+
+.feedback, .feedback-form-title {
+  font-size: 2rem;
+}
+
+.feedback-form {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.feedback-title {
+  font-size: 1.2em;
+}
+
+.feedback-form-title {
+  font-size: 2em;
+}
+
+.feedback-name {
+  font-size: .6em;
+  font-weight: 100;
+}
+
+.feedback-message {
+  font-weight: 100;
+  font-size: .9em;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+.feedback-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.feedback-item:last-of-type {
+  border-bottom: none;
+}
+
+/*overwrite bootstrap css*/
+label {
+    /* Other styling.. */
+  /*  text-align: right;*/
+    clear: both;
+    /*float:left;*/
+    margin-right:15px;
+}
+
+.form-group {
+	float: left;
+}
+/* End of survey form*/
