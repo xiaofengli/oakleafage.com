@@ -389,7 +389,7 @@ http://tool.c7sky.com/webcolor/
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #fff;
+	background-color:  #efefef;
 	border-radius: 2px;
 	font-size: 20px;
 	text-align: center;
@@ -400,7 +400,7 @@ http://tool.c7sky.com/webcolor/
 
 
 .footer-distributed .footer-icons a i {
-	background-color:  #92a8d1;
+	background-color:  #efefef;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
