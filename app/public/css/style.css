@@ -388,19 +388,15 @@ http://tool.c7sky.com/webcolor/
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	cursor: pointer;
-	background-color:  #efefef;
+  cursor: pointer;
+  color:#efefef;              /*change here for text color   */     
+	background-color:  grey;   /*change here for frame color   */
 	border-radius: 2px;
 	font-size: 20px;
 	text-align: center;
 	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
-}
-
-
-.footer-distributed .footer-icons a i {
-	background-color:  #efefef;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
