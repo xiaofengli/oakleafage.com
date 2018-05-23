@@ -380,7 +380,8 @@ http://tool.c7sky.com/webcolor/
 }
 
 .footer-distributed .footer-icons {
-	margin-top: 25px;
+  margin-top: 25px;
+  
  
 }
 
@@ -471,6 +472,7 @@ http://tool.c7sky.com/webcolor/
 
 .feedback-form {
   margin-top: 20px;
+  
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
@@ -515,6 +517,12 @@ label {
 }
 
 .form-group {
-	float: left;
+	float: middle;
+}
+.container_feedback {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 30%;
 }
 /* End of survey form*/
