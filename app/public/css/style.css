@@ -380,7 +380,8 @@ http://tool.c7sky.com/webcolor/
 }
 
 .footer-distributed .footer-icons {
-	margin-top: 25px;
+  margin-top: 25px;
+  
  
 }
 
@@ -388,19 +389,15 @@ http://tool.c7sky.com/webcolor/
 	display: inline-block;
 	width: 35px;
 	height: 35px;
-	cursor: pointer;
-	background-color:  #fff;
+  cursor: pointer;
+  color:#efefef;              /*change here for text color   */     
+	background-color:  grey;   /*change here for frame color   */
 	border-radius: 2px;
 	font-size: 20px;
 	text-align: center;
 	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
-}
-
-
-.footer-distributed .footer-icons a i {
-	background-color:  #92a8d1;
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
@@ -475,6 +472,7 @@ http://tool.c7sky.com/webcolor/
 
 .feedback-form {
   margin-top: 20px;
+  
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
@@ -519,6 +517,12 @@ label {
 }
 
 .form-group {
-	float: left;
+	float: middle;
+}
+.container_feedback {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 30%;
 }
 /* End of survey form*/
