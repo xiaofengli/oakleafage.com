@@ -286,7 +286,7 @@ http://tool.c7sky.com/webcolor/
 /* Footer left */
 .footer-distributed .footer-left {
 	width: 30%;
-	text-align: center;
+	text-align: right;
 	vertical-align: top
 }
 
@@ -324,6 +324,7 @@ http://tool.c7sky.com/webcolor/
 /* Footer Center */
 .footer-distributed .footer-center {
 	width: 35%;
+	text-align: center;
 }
 
 .footer-distributed .footer-center i {
