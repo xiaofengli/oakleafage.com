@@ -19,6 +19,7 @@ router.get('/survey', function(req, res) {
 
 });
 
+/*
 var storage = multer.diskStorage({
 	destination: function(req, file, callback) {
 		callback(null, './uploads')
@@ -48,5 +49,5 @@ router.post('/survey', function(req,res){
 	})
 	res.status(204).end();
 });
-
+*/
 module.exports = router;

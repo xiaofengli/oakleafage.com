@@ -1,6 +1,6 @@
 $(function() {
 
-	/* not working
+
  
    $('.feedback-form').submit(function(e) {
      e.preventDefault();
@@ -29,7 +29,7 @@ $(function() {
      });
    });
    
-   */
+  
    
    
    // $.getJSON('api', updateFeedback);
