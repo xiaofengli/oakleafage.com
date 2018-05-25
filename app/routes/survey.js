@@ -6,7 +6,7 @@ var router = express.Router();
 router.get('/survey', (req, res) => {
 	  res.render('survey', {
 	    pageTitle: 'Survey',
-	    pageID: 'feedback'
+	    pageID: 'feedback'      // This is how router works, it directs it to feedback.js
 	  });
 
 	});
