@@ -1,7 +1,5 @@
 $(function() {
 
-	/* not working
- 
    $('.feedback-form').submit(function(e) {
      e.preventDefault();
      $.post('api', {
@@ -22,14 +20,12 @@ $(function() {
        cschoolname:$('#feedback-form-cschoolname').val(),
        cschoolstart:$('#feedback-form-cschoolstart').val(),
        cschoolend:$('#feedback-form-cschoolend').val(),
-       comments: $('#feedback-form-comments').val(),
-       passport: $('#feedback-form-passport').val()
-       
-       
+       comments: $('#feedback-form-comments').val()
+  //   ,  passport: $('#feedback-form-passport').val()
      });
    });
    
-   */
+   
    
    
    // $.getJSON('api', updateFeedback);
