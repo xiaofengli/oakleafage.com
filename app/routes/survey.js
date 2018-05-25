@@ -1,14 +1,24 @@
 var express = require('express');
 var router = express.Router();
+
+
+// Use http get to post a form and use fs package to save it to the file system.
+router.get('/survey', (req, res) => {
+	  res.render('survey', {
+	    pageTitle: 'Survey',
+	    pageID: 'feedback'      // This is how router works, it directs it to feedback.js
+	  });
+
+	});
+
+/*
 var multer  = require('multer')
 var path = require('path')
-
-//var uploadProfileImgs = multer({dest : './uploads/'}).single('photo');
-
-
+var uploadProfileImgs = multer({dest : './uploads/'}).single('photo');
 var bodyParser = require('body-parser');
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: false }));
+
 
 
 router.get('/survey', function(req, res) {
@@ -20,6 +30,7 @@ router.get('/survey', function(req, res) {
 });
 
 /*
+
 var storage = multer.diskStorage({
 	destination: function(req, file, callback) {
 		callback(null, './uploads')
@@ -49,5 +60,9 @@ router.post('/survey', function(req,res){
 	})
 	res.status(204).end();
 });
+
+
 */
+
+
 module.exports = router;
