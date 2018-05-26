@@ -17,20 +17,30 @@
           <li><a href="/"><%=translation.NAV_MENU.HOME%></a></li>
             <li><a href="/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%=translation.NAV_MENU.SERVICES%><span class="caret"><span></a>
               <ul class="dropdown-menu">
+                  <% sum=0; %>
                 <% allServices.forEach(function(item) { %>
                   <li><a href="/services/<%= item.shortname %>">
+                        
                         <%= item.name %>
+                        <% sum=sum+1; %>
                       </a>
                   </li>
+                  <%  if(sum!=5){%>
                   <li role="separator" class="divider"></li> 
+                  <%} %>
                 <% }); %>
+             
               </ul>
           </li>
+          
           <!-- take out these endpoints
           <li><a href="/feedback">联系我们</a></li>
           <li><a href="/chat">留言</a></li>
           -->
-           <li><a href="/cases"><%=translation.NAV_MENU.CASES%></a></li>
+          <li><a href="/cases"><%=translation.NAV_MENU.CASES%></a></li>
+     
+          <li> <a href='?clang=cn'><img src='images/cn.svg' width= 30 height= 20 /></a></li>
+          <li> <a href='?clang=en'><img src='images/us.svg' width= 30 height= 20 /></a></li>
         </ul><!-- nav -->
       </div><!-- navbar-collapse -->
     </div><!-- container -->

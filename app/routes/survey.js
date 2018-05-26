@@ -11,11 +11,12 @@ router.get('/survey', (req, res) => {
 
 	});
 
-/*
+
+
 var multer  = require('multer')
 var path = require('path')
-var uploadProfileImgs = multer({dest : './uploads/'}).single('photo');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: false }));
 
@@ -29,7 +30,7 @@ router.get('/survey', function(req, res) {
 
 });
 
-/*
+
 
 var storage = multer.diskStorage({
 	destination: function(req, file, callback) {
@@ -41,28 +42,27 @@ var storage = multer.diskStorage({
 	}
 })
 
+var upload=multer({ storage : storage}).single('photo');
 
-
-router.post('/survey', function(req,res){
-	var upload = multer({
-		storage: storage,
-		fileFilter: function(req, file, callback) {
-			var ext = path.extname(file.originalname)
-			console.log(ext);
-			if (ext !== '.png' && ext !== '.jpg' && ext !== '.gif' && ext !== '.jpeg') {
-				return callback(res.end('Only images are allowed'), null)
-			}
-			callback(null, true)
-		}
-	}).single('photo')
+router.post('/survey', function(req,res){	
 	upload(req, res, function(err) {
+		if (err){
+			return res.end("Error uploading file.");
+		}
+		var feedbackData=[];
+		feedbackData.unshift(req.body);
+		fs.writeFile('app/data/feedbacks/'+ feedbackData[0].firstname+ Date.now() +'.json', JSON.stringify(feedbackData), 'utf8', function(err) {
+			if (err) {
+			  console.log(err);
+			}
+		  });
+		console.log(feedbackData[0]);
 		res.end('File is uploaded')
-	})
-	res.status(204).end();
+	});
 });
 
 
-*/
+
 
 
 module.exports = router;

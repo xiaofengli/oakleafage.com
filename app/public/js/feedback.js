@@ -1,3 +1,5 @@
+
+/*
 $(function() {
 
 
@@ -70,6 +72,6 @@ $(function() {
     });
     $('.feedback-messages').html(output);
    }
-   */
+   
  });
- 
+ */
