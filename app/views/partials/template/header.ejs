@@ -20,12 +20,11 @@
                   <% sum=0; %>
                 <% allServices.forEach(function(item) { %>
                   <li><a href="/services/<%= item.shortname %>">
-                        
                         <%= item.name %>
                         <% sum=sum+1; %>
                       </a>
                   </li>
-                  <%  if(sum!=5){%>
+                  <% if(sum!=allServices.length){%>
                   <li role="separator" class="divider"></li> 
                   <%} %>
                 <% }); %>
@@ -39,8 +38,10 @@
           -->
           <li><a href="/cases"><%=translation.NAV_MENU.CASES%></a></li>
      
-          <li> <a href='?clang=cn'><img src='images/cn.svg' width= 30 height= 20 /></a></li>
-          <li> <a href='?clang=en'><img src='images/us.svg' width= 30 height= 20 /></a></li>
+      
+          <li> <a href='?clang=cn'><img src=<%=appDir%>/public/images/cn.svg width= 30 height= 20 /></a></li>
+          <li> <a href='?clang=en'><img src=<%=appDir%>/public/images/us.svg width= 30 height= 20 /></a></li>
+          
         </ul><!-- nav -->
       </div><!-- navbar-collapse -->
     </div><!-- container -->

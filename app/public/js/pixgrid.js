@@ -1,4 +1,8 @@
-for(i=0;i<3;i++){
+
+console.log(window.location.pathname);
+//https://stackoverflow.com/questions/19706046/how-to-read-an-external-local-json-file-in-javascript
+for(i=0;i<23;i++){
+
     var modal = document.getElementById('Modal'+i);
     
     // Get the image and insert it inside the modal - use its "alt" text as a caption
