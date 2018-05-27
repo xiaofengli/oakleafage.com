@@ -1,4 +1,7 @@
+
+/*
 $(function() {
+
 
    $('.feedback-form').submit(function(e) {
      e.preventDefault();
@@ -25,7 +28,7 @@ $(function() {
      });
    });
    
-   
+
    
    
    // $.getJSON('api', updateFeedback);
@@ -69,6 +72,6 @@ $(function() {
     });
     $('.feedback-messages').html(output);
    }
-   */
+   
  });
- 
+ */

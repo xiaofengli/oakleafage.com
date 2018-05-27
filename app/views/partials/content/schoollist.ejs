@@ -1,3 +1,4 @@
+
 <article class="sidebar">
   <h1 class="sidebar-title"> <%= translation.SCHOOL_LIST_TEXT.header %> </h1>
   <p class="sidebar-body">
@@ -7,13 +8,19 @@
   <div class="pixgrid clearfix">
     <% if (image.length > 0) { %>
     <% for (i=0; i< image.length; i++) { %>
-        <div class="againtbox">
-        <img src="/images/schools/<%= image[i] %>" alt="School <%= i %>" >
+        
+        <img id="<%= i %>" src="/images/schools/<%= image[i] %>" alt="hello" >
+        <div id="Modal<%= i %>" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img<%= i %>">
+          <div style="color:white;" id="caption<%= i %>"></div>
         </div>
+        
     <% } %>
     <% } %>
   </div>
-  
+
+ 
 </article>
 
 
