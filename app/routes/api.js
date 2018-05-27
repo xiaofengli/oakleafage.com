@@ -3,7 +3,9 @@ var router = express.Router();
 var bodyParser = require('body-parser');
 var fs = require('fs');
 
+
 var feedbackData = require('../data/feedback.json');
+
 
 /*
 router.get('/api', function(req, res) {
@@ -15,14 +17,17 @@ router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: false }));
 
 router.post('/api', function(req, res) {
+  var feedbackData=[];
   feedbackData.unshift(req.body);
+
   console.log(feedbackData[0]);
   fs.writeFile('app/data/feedbacks/'+ feedbackData[0].firstname+ Date.now() +'.json', JSON.stringify(feedbackData), 'utf8', function(err) {
     if (err) {
       console.log(err);
     }
   });
-  res.json(feedbackData);
+ 
+  //res.json(feedbackData);
 });
 
 /*
@@ -35,6 +40,8 @@ router.delete('/api/:id', function(req, res) {
   });
   res.json(feedbackData);
 });
+<<<<<<< HEAD
+
 */
 
 

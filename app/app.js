@@ -4,7 +4,7 @@ var reload = require('reload');
 var app = express();
 const geoip = require('geoip-lite');
 const requestIp = require('request-ip');
-
+var http= require('http');
 var io = require('socket.io')();
 
 var myLogger = (req, res, next) => {
@@ -86,6 +86,7 @@ app.use(require('./routes/chat'));
 */
 
 // Set up server event, please note the callback function
+
 var server = app.listen(app.get('port'),
 		(req, res) => {console.log('Listening on port ' + app.get('port'));}
 		     );
