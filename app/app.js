@@ -6,6 +6,8 @@ const geoip = require('geoip-lite');
 const requestIp = require('request-ip');
 var http= require('http');
 var io = require('socket.io')();
+var path = require('path');
+var appDir = path.dirname(require.main.filename);
 
 var myLogger = (req, res, next) => {
   let ip=requestIp.getClientIp(req)
@@ -60,6 +62,7 @@ app.set('privacy',privacyStatement);
 //Local variables shared by all the view pages
 app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
 app.locals.SERVICES_NUM = 3; //this is the number of services to show in the index.ejs page.
+app.locals.appDir = appDir;
 /*
  *  MVC, model, view, controller.
  * */

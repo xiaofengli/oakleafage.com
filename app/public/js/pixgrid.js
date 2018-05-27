@@ -1,3 +1,5 @@
+console.log(window.location.pathname);
+//https://stackoverflow.com/questions/19706046/how-to-read-an-external-local-json-file-in-javascript
 for(i=0;i<23;i++){
     var modal = document.getElementById('Modal'+i);
     
