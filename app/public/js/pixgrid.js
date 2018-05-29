@@ -1,17 +1,30 @@
+function basename(path) {
+   return path.split('/').reverse()[0];
+}
 
 var i=0;
-while(document.getElementById(i)!=null){
+while(document.getElementById(i)!=null) {
   
   var modal = document.getElementById('Modal'+i);
  
+  if (!modal) {
+	  break;
+  }
   // Get the image and insert it inside the modal - use its "alt" text as a caption
   
   var img = document.getElementById(i);
   var modalImg = document.getElementById("img"+i);
   var captionText = document.getElementById("caption"+i);
-  img.onclick = function(){
+  img.onclick = function() {
       modal.style.display = "block";
-      modalImg.src = this.src;
+      
+      //TODO what if a file name contains more than one .?
+      var fileName= basename(this.src).split('.');
+      var fileBaseName = fileName[0];
+      var fileExtension = fileName[1];
+      
+      // Here there is a bug, the path is not ok
+      modalImg.src = fileBaseName+"_big." + fileExtension; 
       captionText.innerHTML = this.alt;
   }
   
