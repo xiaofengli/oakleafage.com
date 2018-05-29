@@ -218,6 +218,13 @@ header .jumbotron {
 	width: cover;
 }
 
+
+.text {
+  position: absolute;
+  top: 550px;
+  left: 400px;
+  color:white;
+}
 /** image size **/
 #slider img {
 	height: 620px;
@@ -612,4 +619,5 @@ label {
   .modal-content {
       width: 100%;
   }
+}
 }
