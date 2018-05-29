@@ -9,7 +9,7 @@
     <% if (image.length > 0) { %>
     <% for (i=0; i< image.length; i++) { %>
         
-        <img id="<%= i %>" src="/images/schools/<%= image[i] %>" alt="hello" >
+        <img id="<%= i %>" src="/images/schools/<%= image[i] %>" alt=<%=image[i]%> >
         <div id="Modal<%= i %>" class="modal">
           <span class="close">&times;</span>
           <img class="modal-content" id="img<%= i %>">
