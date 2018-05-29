@@ -124,7 +124,7 @@
                 <input type="file" name="photo" id="feedback-form-passport" accept=".jpg, .jpeg, .png">
             </div>
             
-            <input type="submit" class="btn btn-default pull-right">
+            <input type="submit" onclick="myFunction()" class="btn btn-default pull-right">
           </form>
           
         </div><!-- primary -->
@@ -142,3 +142,12 @@
     <% include partials/template/footer.ejs %>
   </body>
 </html>
+
+<script>
+   
+    var x=navigator.cookieEnabled;
+    if(x==false){
+        window.alert("turn on the cookie!!");
+    }
+
+</script>
