@@ -22,9 +22,12 @@ while(document.getElementById(i)!=null) {
       var fileName= basename(this.src).split('.');
       var fileBaseName = fileName[0];
       var fileExtension = fileName[1];
-      
+      console.log(fileName);
+     
       // Here there is a bug, the path is not ok
-      modalImg.src = fileBaseName+"_big." + fileExtension; 
+      var temp="../images/schools/"+fileBaseName+"_big." + fileExtension; 
+      modalImg.src = temp;
+    
       captionText.innerHTML = this.alt;
   }
   
