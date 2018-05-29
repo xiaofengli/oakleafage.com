@@ -23,12 +23,11 @@ while(document.getElementById(i)!=null) {
       var fileBaseName = fileName[0];
       var fileExtension = fileName[1];
       console.log(fileName);
-      //console.log(fileExtension);
+     
       // Here there is a bug, the path is not ok
       var temp="../images/schools/"+fileBaseName+"_big." + fileExtension; 
       modalImg.src = temp;
-      //modalImg.src =this.src; 
-      console.log(modalImg.src);
+    
       captionText.innerHTML = this.alt;
   }
   
