@@ -1,16 +1,32 @@
 <script>
+
+var slideIndex = 1;
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+  showDivs(slideIndex);
+  carousel();      
+});
+
+function plusDivs(n) {
+	showDivs(slideIndex += n);
+}
+
 function showDivs(n) {
          var i;
          var x = document.getElementsByClassName("mySlides");
          var y = document.getElementsByClassName("text");
          if (n > x.length) {
-	 	slideIndex = 1;
-	 }    
-         if (n < 1) {slideIndex = x.length}
+        	 slideIndex = 1;
+         }    
+         if (n < 1) {
+        	 slideIndex = x.length
+         }
+         
          for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
             y[i].style.display = "none";
          }
+         
          x[slideIndex-1].style.display = "block";  
          y[slideIndex-1].style.display = "block";  
        }
@@ -31,54 +47,40 @@ function carousel() {
     y[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 8000); // Change image every 2 seconds
 }
- 
-function plusDivs(n) {
-	showDivs(slideIndex += n);
-}
-
-var slideIndex = 1;
-
-document.addEventListener("DOMContentLoaded", function(event) { 
-  showDivs(slideIndex);
-  carousel();      
-});
-
-/*
-  What does this do?
-  We might want to add text to the images later
-$(function() {
-  $('.footer-links-holder h3').click(function () {
-    $(this).parent().toggleClass('active');
-  });
-});
-
-*/
-
 </script>
 
 <div class="slideshow">
   <div id="slider">
-        <!-- pictures for the slide show-->
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n1.png"/>
-        <div class="text"><font color="red">hello1</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n2.png"/>
-        <div class="text"><font color="green">hello2</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n3.png"/>
-        <div class="text"><font color="blue">hello3</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n4.png"/>
-        <div class="text"><font color="black">hello4</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n5.png"/>
-        <div class="text"><font color="grey">hello5</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n6.png"/>
-        <div class="text"><font color="white">hello6</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n7.png"/>
-        <div class="text"><font color="red">hello7</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n8.png"/>
-        <div class="text"><font color="red">hello8</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n9.png"/>
-        <div class="text"><font color="red">hello9</font></div>
-        <img class="mySlides w3-animate-fading" src="../images/sliderpic/n10.png"/>
-        <div class="text"><font color="red">hello10</font></div>
+  		
+   
+        <%= sliderImage.size() %>
+        <% for (var i=0;i< sliderImage.length;i++) { %>
+        	<%= sliderImage[i].image %>
+        	<img class="mySlides w3-animate-fading" src= <%= sliderImage[i].image %> />
+        	<div class="text"><font color="red"><%= sliderImage[i].description %></font></div>
+        
+        <% } %>
+       
+        <!-- pictures for the slide show
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n2.png" />
+            <div class="text"><font color="green">hello2</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n3.png" />
+            <div class="text"><font color="blue">hello3</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n4.png" />
+            <div class="text"><font color="black">hello4</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n5.png" />
+            <div class="text"><font color="grey">hello5</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n6.png" />
+            <div class="text"><font color="white">hello6</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n7.png" />
+            <div class="text"><font color="red">hello7</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n8.png" />
+            <div class="text"><font color="red">hello8</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n9.png" />
+            <div class="text"><font color="red">hello9</font></div>
+            <img class="mySlides w3-animate-fading" src="../images/sliderpic/n10.png" />
+            <div class="text"><font color="red">hello10</font></div>
+            -->
   </div>
   <div id="arrows">
         <!-- arrows used to control the slide show-->

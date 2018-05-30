@@ -28,6 +28,7 @@ app.use(myLogger);
 var dataFile = require('./data/data.json');
 var privacyStatement = require('./data/privacy.json');
 var termOfUse = require('./data/termofuse.json');
+var sliderImage = require('./data/slider.json');
 
 /*i18n stuff*/
 var cookieParser = require('cookie-parser');
@@ -63,7 +64,8 @@ app.set('privacy',privacyStatement);
 //Local variables shared by all the view pages
 app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
 app.locals.SERVICES_NUM = 3; //this is the number of services to show in the index.ejs page.
-
+app.locals.sliderImage= sliderImage; 
+	
 //app.locals.appDir = appDir;
 
 /*
