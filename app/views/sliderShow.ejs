@@ -1,9 +1,11 @@
 <script>
 function showDivs(n) {
+
          var i;   //iteration variable
          var  image_control = document.getElementsByClassName("mySlides");
          var text_control = document.getElementsByClassName("text");
          if (n > image_control.length) {slideIndex = 1}    
+
          if (n < 1) {slideIndex = x.length}
          for (i = 0; i < image_control.length; i++) {
             image_control[i].style.display = "none";  
