@@ -65,6 +65,7 @@ app.set('privacy',privacyStatement);
 app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
 app.locals.SERVICES_NUM = 3; //this is the number of services to show in the index.ejs page.
 app.locals.sliderImage= sliderImage; 
+
 	
 //app.locals.appDir = appDir;
 
