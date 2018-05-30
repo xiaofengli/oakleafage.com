@@ -1,30 +1,30 @@
 <script>
 function showDivs(n) {
-         var i;
-         var x = document.getElementsByClassName("mySlides");
-         var y = document.getElementsByClassName("text");
-         if (n > x.length) {slideIndex = 1}    
+         var i;   //iteration variable
+         var  image_control = document.getElementsByClassName("mySlides");
+         var text_control = document.getElementsByClassName("text");
+         if (n > image_control.length) {slideIndex = 1}    
          if (n < 1) {slideIndex = x.length}
-         for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-            y[i].style.display = "none";
+         for (i = 0; i < image_control.length; i++) {
+            image_control[i].style.display = "none";  
+            text_control[i].style.display = "none";
          }
-         x[slideIndex-1].style.display = "block";  
-         y[slideIndex-1].style.display = "block";  
+         image_control[slideIndex-1].style.display = "block";  
+         text_control[slideIndex-1].style.display = "block";  
        }
        
 function carousel() {
     var i;
-    var x = document.getElementsByClassName("mySlides");
-    var y = document.getElementsByClassName("text");
+    var image_control = document.getElementsByClassName("mySlides");
+    var text_control = document.getElementsByClassName("text");
     for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-      y[i].style.display = "none";
+      image_control[i].style.display = "none"; 
+      text_control[i].style.display = "none";
     }
     slideIndex++;
     if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    y[slideIndex-1].style.display = "block"; 
+    image_control[slideIndex-1].style.display = "block"; 
+    text_control[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 8000); // Change image every 2 seconds
 }
  
