@@ -31,12 +31,12 @@ function carousel() {
     var i;
     var image_control = document.getElementsByClassName("mySlides");
     var text_control = document.getElementsByClassName("text");
-    for (i = 0; i < x.length; i++) {
+    for (i = 0; i < image_control.length; i++) {
       image_control[i].style.display = "none"; 
       text_control[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
+    if (slideIndex > image_control.length) {slideIndex = 1} 
     image_control[slideIndex-1].style.display = "block"; 
     text_control[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 8000); // Change image every 2 seconds
@@ -45,16 +45,18 @@ function carousel() {
 
 <div class="slideshow">
   <div id="slider">
-  		<% console.log(sliderImage.length); %>
+      <% console.log(sliderImage.length); %>
+    
         <% for (var i=0;i< sliderImage.length;i++) { %>
         	<%= sliderImage[i].image %>
         	<img class="mySlides w3-animate-fading" src= <%= sliderImage[i].image %> />
         	<div class="text"><font color="red"><%= sliderImage[i].description %></font></div>
         <% } %>
        
-        <!-- pictures for the slide show       -->
+        <!-- pictures for the slide show  -->     
             <img class="mySlides w3-animate-fading" src="../images/sliderpic/n2.png" />
             <div class="text"><font color="green">hello2</font></div>
+            
             <img class="mySlides w3-animate-fading" src="../images/sliderpic/n3.png" />
             <div class="text"><font color="blue">hello3</font></div>
             <img class="mySlides w3-animate-fading" src="../images/sliderpic/n4.png" />
@@ -70,12 +72,13 @@ function carousel() {
             <img class="mySlides w3-animate-fading" src="../images/sliderpic/n9.png" />
             <div class="text"><font color="red">hello9</font></div>
             <img class="mySlides w3-animate-fading" src="../images/sliderpic/n10.png" />
-            <div class="text"><font color="red">hello10</font></div>
-      
+            <div class="text"><font color="red">hello10</font></div>  
+            <div class="background">        
   </div>
   <div id="arrows">
         <!-- arrows used to control the slide show-->
         <i id="Prev" class="fa fa-chevron-left fa-2x" onclick="plusDivs(-1)" aria-hidden="true"></i>
         <i id="Next" class="fa fa-chevron-right fa-2x" onclick="plusDivs(+1)" aria-hidden="true"></i>
   </div>
+  
 </div>
