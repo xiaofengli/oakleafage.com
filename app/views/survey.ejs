@@ -140,7 +140,31 @@
     <% include partials/template/jsdefaults.ejs %>
     <% include partials/template/header.ejs %>
     <% include partials/template/footer.ejs %>
+    
   </body>
+  <div data-role="page" id="pageone">
+    
+  
+     <div data-role="main" class="ui-content">
+      <p>Click on the link to see the flip effect.</p>
+      <a href="#pagetwo" data-transition="flip">Flip to Page Two</a>
+    </div>
+  
+    <div data-role="footer">
+      <h1>Footer Text</h1>
+    </div>
+  </div> 
+  
+  <div data-role="page" id="pagetwo">
+    
+  
+     <div data-role="main" class="ui-content">
+      <p>Click on the link to go back. <b>Note</b>: fade is default.</p>
+      <a href="#pageone">Go back to Page One</a>
+    </div>
+  
+    
+  </div> 
 </html>
 
 <script>
@@ -151,3 +175,6 @@
     }
 
 </script>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
