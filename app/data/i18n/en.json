@@ -24,4 +24,19 @@
 	"header": "US Schools",
 	"text": "While you attend the conference, head over to our gallery where you can check out some of the work from our speakers."
 }
+,
+"survey_form": {
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email",
+  "phone": "Phone",
+  "address": "Address",
+  "postal":"Postal", 
+  "state": "State",
+  "birthday":"Birth day",
+  "elementarySchool":"Elementary School",
+  "middleSchool": "Middle School",
+  "highSchool":"High School",
+  "comment":"Comment"
+	}
 }
