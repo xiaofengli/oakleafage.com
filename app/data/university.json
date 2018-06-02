@@ -1,52 +1,3 @@
-{
-  "universities":
-  { 
-  "cn": [
-   { 
-     "name": "哥伦比亚大学",
-     "description":"<p>哥伦比亚大学（Columbia University in the City of New York），简称为哥大（Columbia）。哥伦比亚大学是一所位于美国纽约曼哈顿的世界著名私立研究型大学，于1754年根据英国国王乔治二世颁布的《国王宪章》而成立，最初名为国王学院，1896年正式更名为哥伦比亚大学（1784-1896为哥伦比亚学院）并迁到目前所在的晨边高地(Morningside Heights)校园，属于常春藤盟校 ,是美国大学协会创始成员。</p><p>哥大是美国历史最悠久的五所大学之一，截止2017年共有96位诺贝尔奖得主在哥大学习或工作过，居世界第三位  。哥大校园里还走出5位美国开国元勋，奥巴马、罗斯福等四位美国总统，和34位各国元首、首脑，10位美国最高法院大法官。哥伦比亚大学拥有世界一流的法学院、商学院、医学院、新闻学院等，其新闻学院颁发的普利策奖（Pulitzer Prize）是美国新闻界的最高荣誉。1767 年哥伦比亚大学授予了第一个医学博士学位, 这也是美国历史上第一个专业博士学位。哥伦比亚大学是美国重要的研究机构之一，是北美第一个实现原子核裂变－曼哈顿计划的诞生地。</p><p>哥大在2018年美国新闻与世界报道(US News & World Report) 颁布的美国大学排名中位列第5。2017年度，哥大位列ARWU世界大学学术排名世界第8, 2018usnews世界大学排名（US News）世界第8；2018《华尔街日报》/《泰晤士高等教育》美国大学排名第2。</p>",
-     "image": []
-   },
-   { 
-     "name": "普林斯顿大学",
-     "description":"<p>普林斯顿大学（Princeton University），简称普林斯顿（Princeton），是世界著名私立研究型大学，位于美国新泽西州的普林斯顿市，是八所常春藤盟校之一。学校于1746年在新泽西州伊丽莎白镇创立，是美国殖民时期第四所成立的高等教育学院，当时名为“新泽西学院”，1747年迁至新泽西州，1756年迁至风景优美的普林斯顿市（位于费城和纽约之间），并在1896年正式改名为“普林斯顿大学”。虽然其旧校名是“新泽西州学院”，但它与今天位于邻近的尤因镇（Ewing Township）的“新泽西州学院”没有任何关联。它最初是长老制的教育机构，但学校从没有跟任何宗教机构有直接的联系。</p><p>普林斯顿大学培养了2位美国总统、12位美国最高法院大法官和众多美国国会议员 。同时，普林斯顿大学与附近的普林斯顿高等研究院（IAS）共同构成了世界著名的理论研究中心，对基础数学、理论物理学、经济学等学科的发展影响深远 。截至2017年，共有43位诺贝尔奖获得者在普林斯顿大学工作或学习过，位列世界第13名 。另有10位世界计算机最高奖图灵奖得主（世界第六）和14位世界数学最高奖菲尔兹奖得主在普林斯顿工作或学习过（世界第四） 。</p><p>2017-2018年，普林斯顿大学在世界大学学术排名（ARWU）中位列世界第6,在泰晤士高等教育世界大学排名中位列世界第7,在usnews世界大学排名（US News）中位列世界第9,在QS世界大学排名中位列世界第11。另外，普林斯顿大学在2017-2018年US News美国大学本科排名中，蝉联全美大学第1</p>",
-     "image": []
-   },
-   {
-     "name": "纽约大学",
-     "description":"<p>纽约大学（New York University）简称“NYU”，是一所位于纽约的世界著名私立综合性研究型大学，成立于1831年。纽约大学由18个学院和研究所组成，已经成为全美国境内规模最大的私立非营利高等教育机构之一，同时也是美国唯一一座位于纽约心脏地带的私立名校</p><p>作为全美TOP30名校，纽约大学被列为25所新常春藤名校之一，同时也是美国大学协会（AAU）成员之一。截至2016年，该校共拥有36位诺贝尔奖得主（在全球高校中列第17位，居全美第11位）.超过30名普利策奖得主，30余名奥斯卡金像奖得主，19名美国科学院勋章得主，多名阿贝尔奖，艾美奖、托尼奖得主。在最新一期出版的2018USNEWS中，纽约大学全美综合排名第30位。2017CWUR 世界大学排名第22位，年度全球CEO母校排名第18位,全美著名校友总数排名第8位</p><p>纽约大学较为偏重人文及社会科学，研究生院享有极高声誉。属下的帝势艺术学院(Tisch School of the Arts）是全美最佳艺术学院之一；斯特恩商学院（Leonard N. Stern School of Business）是蜚声世界的著名商学院，金融等专业连续排名全美前三；柯朗数学科学研究所是美国排名第一的应用数学研究机构；沙克房地产研究所（Schack）是美国房地产业界著名的高水平研究机构，和世界金融地产界联系紧密，2017排名全美第四 。法学院为全美最好的6所法学院之一，这六所顶级法学院也被称为“T6”超级法学院。牙医学院享誉世界，2017泰晤士报世界大学排名第十，全美第二。</p>",
-     "image": []
-   },
-   {
-     "name": "罗格斯大学",
-     "description":"<p>罗格斯大学（Rutgers University），简称RU或Rutgers，全名为新泽西州立罗格斯大学（Rutgers, The State University of New Jersey），前身是成立于1766年的皇后学院（Queen's College），是一所在世界上享有盛名的顶尖公立研究型大学，也是新泽西州规模最大的高等学府，其学术声誉在州内仅次于普林斯顿大学（Princeton University）</p>",
-     "image": []
-   },
-   {
-     "name": "宾夕法尼亚大学",
-     "description":"<p>宾夕法尼亚大学（University of Pennsylvania ），简称宾大（UPenn），位于宾夕法尼亚州的费城，是一所全球顶尖的私立研究型大学，著名的八所常春藤盟校之一，北美顶尖大学学术联盟美国大学协会（Association of American Universities）的十四所创始成员校之一。宾大由本杰明·富兰克林创建于1740年，是美国第四古老的高等教育机构，也是美国第一所从事科学技术和人文教育的现代高等学校。</p>",
-     "image": []
-   },
-   {
-     "name": "匹兹堡大学",
-     "description":"<p>匹兹堡大学 （University of Pittsburgh），又称“匹大” （PITT），是位于美国东北部宾夕法尼亚州的一所公立研究型大学，美国著名高等学府。其成立于1787年，是美国最早的十所大学之一，其下属UPMC为全球顶尖医学院之一，在器官移植、神经外科学等领域均处于国际领先地位。其主校区位于宾夕法尼亚州第二大城市匹兹堡，各学院分布在奥克兰区（Oakland），地理位置十分优越。校训格言是“真理与美德（Veritas et Virtus）”，吉祥物是美洲豹（Panther）。匹兹堡大学世界排名2018最新排行第48名。</p>",
-     "image": []
-   },
-   {
-     "name": "卡内基梅隆大学",
-     "description":"<p>美国卡耐基梅隆大学（Carnegie Mellon University），简称CMU，坐落在美国宾夕法尼亚州的匹兹堡(Pittsburgh)，是一所拥有13,600名在校学生和1,423名教职及科研人员的世界著名学府。该校拥有享誉全球的计算机学院和戏剧学院，其艺术学院，商学院，工程院以及公共管理学院等也都在全美名列前茅。</p>",
-     "image": []
-   },
-   {
-     "name": "爱荷华州立大学",
-     "description":"<p>爱荷华州立大学（Iowa State University），简称ISU，美国一级大学，创办于1862年，是爱荷华州艾姆斯（Ames）的一所享誉全美的祖父级大学，是久负盛名的北美顶尖大学学术联盟美国大学协会（AAU）的62所成员校之一。这所位于美国中北部小城的大学向来低调，但其在生物、机械和物理等学科领域都有着世界级的声誉，该校设计学院的实力同样不容小觑。</p>",
-     "image": []
-   },
-   {
-     "name": "俄勒冈大学",
-     "description":"<p>俄勒冈大学（University of Oregon，简称UO），建立于1876年，是拥有百年历史的美国著名公立大学之一，是以培养本科生和从事科学研究为主的综合性大学，坐落在俄勒冈州的第二大城市尤金（Eugene），距俄勒冈州首府塞勒姆约1个多小时车程。</p>",
-     "image": []
-   },
    {
      "name": "俄勒冈州立大学",
      "description":"<p>俄勒冈州立大学（Oregon State University），简称OSU，创办于1868年，是一所世界著名的公立研究型大学，该校由当时的美国总统亚伯拉罕·林肯亲自主持建立，作为全美国仅有的两所获得政府赠地同时用于参与海洋、航空、能源计划的大学之一而享有独特的荣誉，被誉为 “公立大学之典范”。2016年ARWU世界大学学术排名163名。2017年《美国新闻与世界报道》美国大学综合排名中，该校位列143名，属美国一级国家级大学 </p>",
@@ -54,52 +5,6 @@
    }
   ]
   ,
-  "en": [
-    { 
-      "name": "Columbia University",
-      "description":"<p>Columbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City. Columbia contains the oldest college in the state of New York and is the fifth chartered institution of higher learning in the United States, making it one of nine colonial colleges founded prior to the Declaration of Independence.The university has graduated many notable alumni. As of 2017, alumni and affiliates include 5 Founding Fathers of the United States – among these an author of the Declaration of Independence and an author of the United States Constitution; 10 Justices of the United States Supreme Court; 95 Nobel laureates; 20 living billionaires; 123 Pulitzer Prize winners; 39 Oscar winners; 3 United States Presidents; 29 heads of state; 101 National Academy members; 77 National Medal of Science winners; and 23 National Humanities Medal recipients.</p>",
-      "image": []
-    },
-    { 
-      "name": "Princeton University",
-      "description":"<p>Princeton University is a private Ivy League research university in Princeton, New Jersey, United States. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747, then to the current site nine years later, where it was renamed Princeton University in 1896.</p>",
-      "image": []
-    },
-    {
-      "name": "New York University",
-      "description":"<p>New York University (NYU) is a private nonprofit research university based in New York City. Founded in 1831, NYU's main campus is centered in Manhattan, located with its core in Greenwich Village, and campuses based throughout New York City. NYU is also a worldwide university, operating NYU Abu Dhabi and NYU Shanghai, and centers in Accra, Berlin, Buenos Aires, Florence, London, Madrid, Paris, Prague, Sydney, Tel Aviv, and Washington, D.C.</p>",
-      "image": []
-    },
-    {
-      "name": "Rutgers University",
-      "description":"<p>Rutgers, The State University of New Jersey (/ˈrʌtɡərz/), commonly referred to as Rutgers University, Rutgers, or RU, is an American public research university and is the largest institution of higher education in New Jersey.The university is accredited by the Middle States Association of Colleges and Schools and is a member of the Big Ten Academic Alliance, the Association of American Universities and the Universities Research Association.The New Brunswick campus was categorized by Howard and Matthew Green in their book titled The Public Ivies: America's Flagship Public Universities (2001) as a Public Ivy.</p>",
-      "image": []
-    },
-    {
-      "name": "University of Pennsylvania",
-      "description":"<p>The University of Pennsylvania (commonly known as Penn or UPenn) is a private Ivy League research university located in the University City section of Philadelphia. Incorporated as The Trustees of the University of Pennsylvania, Penn is one of 14 founding members of the Association of American Universities and one of the nine colonial colleges chartered before the American Revolution.Over its history, the university has also produced many distinguished alumni. These include 14 heads of state (including two U.S. Presidents); 25 billionaires – the most of any university in the world at the undergraduate level; three United States Supreme Court justices; over 33 United States Senators, 42 United States Governors and 158 members of the U.S. House of Representatives; 8 signers of the United States Declaration of Independence; and 12 signers of the United States Constitution. In addition, some 30 Nobel laureates, 169 Guggenheim Fellows and 80 members of the American Academy of Arts and Sciences have been affiliated with Penn. In addition, Penn has produced a significant number of Fortune 500 CEOs, in third place worldwide after Harvard and Stanford.</p>",
-      "image": []
-    },
-    {
-      "name": "University of Pittsburgh",
-      "description":"<p>The University of Pittsburgh (commonly referred to as Pitt) is a state-related research university located in Pittsburgh, Pennsylvania. In 1787 after the American Revolutionary War, it was founded on the edge of the American frontier as the Pittsburgh Academy. It developed and was renamed as Western University of Pennsylvania by a change to its charter in 1819. After surviving two devastating fires and various relocations within the area, the school moved to its current location in the Oakland neighborhood of the city; it was renamed as the University of Pittsburgh in 1908. For most of its history, Pitt was a private institution, until 1966 when it became part of the Commonwealth System of Higher Education.</p>",
-      "image": []
-    },
-    {
-      "name": "Carnegie Mellon University",
-      "description":"<p>Carnegie Mellon University (Carnegie Mellon or CMU /ˈkɑːrnɪɡi ˈmɛlən/ or /kɑːrˈneɪɡi ˈmɛlən/) is a private research university in Pittsburgh, Pennsylvania.</p><p>Founded in 1900 by Andrew Carnegie as the Carnegie Technical Schools, the university became the Carnegie Institute of Technology in 1912 and began granting four-year degrees. In 1967, the Carnegie Institute of Technology merged with the Mellon Institute of Industrial Research to form Carnegie Mellon University.</p>",
-      "image": []
-    },
-    {
-      "name": "Iowa State University",
-      "description":"<p>Iowa State University of Science and Technology, generally referred to as Iowa State, is a public flagship land-grant and space-grant research university located in Ames, Iowa, United States. It is the largest university in the state of Iowa and the 3rd largest university in the Big 12 athletic conference. Iowa State is classified as a Research University with very high research activity (RU/VH) by the Carnegie Foundation for the Advancement of Teaching. Iowa State is also a member of the Association of American Universities (AAU), which consists of 62 leading research universities in North America.</p>",
-      "image": []
-    },
-    {
-      "name": "University of Oregon",
-      "description":"<p>The University of Oregon (also referred to as UO, U of O or Oregon) is a public flagship research university in Eugene, Oregon. Founded in 1876, the institution's 295-acre campus is along the Willamette River. Since July 2014, UO has been governed by the Board of Trustees of the University of Oregon. The university has a Carnegie Classification of 'highest research activity' and has 19 research centers and institutes. UO was admitted to the Association of American Universities in 1969.</p>",
-      "image": []
-    },
     {
       "name": "Oregon State University",
       "description":"<p>Oregon State University (OSU) is a coeducational, public research university in the northwest United States, located in Corvallis, Oregon. The university offers more than 200 undergraduate degree programs along with a variety of graduate and doctoral degrees. It is also the largest university in the state, with a total enrollment exceeding 28,000. More than 230,000 people have graduated from OSU since its founding. The Carnegie Foundation designates Oregon State University as a ’Community Engagement‘ university and classifies it as a doctoral university with a status of ’Highest research activity‘. This same designation is shared by 114 other top U.S. academic institutions.</p>",
