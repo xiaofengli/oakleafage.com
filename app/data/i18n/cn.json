@@ -37,6 +37,15 @@
   "elementarySchool":"小学",
   "middleSchool": "初中",
   "highSchool":"高中",
-  "comment":"其他问题"
-}
+  "schoolName": "学校名称",
+  "comment":"其他问题",
+  "contact": "个人联系方式",
+  "education": "求学经历",
+  "startDate": "入学时间",
+  "endDate": "毕业时间",
+  "next": "下一页",
+  "previous": "上一页",
+  "submit": "提交",
+  "success_msg": "信息提交成功"
+  }
 }

@@ -37,6 +37,15 @@
   "elementarySchool":"Elementary School",
   "middleSchool": "Middle School",
   "highSchool":"High School",
-  "comment":"Comment"
-	}
+  "schoolName": "School Name",
+  "comment":"Your question",
+  "contact": "Personal Contact",
+  "education": "Education",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "next": "Next",
+  "previous": "Previous",
+  "submit": "Submit",
+  "success_msg": "Your information is successfully submitted"
+  }
 }
