@@ -47,5 +47,26 @@
   "previous": "Previous",
   "submit": "Submit",
   "success_msg": "Your information is successfully submitted"
+  },
+  
+  "university": {
+    "cu": {"image":"", "text":""},
+  	"princeton": {"image":"", "text":""},
+  	"nyc": {"image":"", "text":""},
+    "ucla": {"image":"", "text":""},
+    "ucsd": {"image":"", "text":""},
+    "ucsb": {"image":"", "text":""},
+    "iu": {"image":"", "text":""},
+    "isu": {"image":"", "text":""},
+    "ui": {"image":"", "text":""},
+    "uiuc": {"image":"", "text":""},
+    "umich":{"image":"", "text":""},
+    "msu":{"image":"", "text":""},
+    "uo":{"image":"", "text":""},
+    "cmu":{"image":"", "text":""},
+    "up":{"image":"", "text":""},
+    "upenn":{"image":"", "text":""},
+    "pitt":{"image":"", "text":""},
+    "ru":{"image":"", "text":""}
   }
 }
