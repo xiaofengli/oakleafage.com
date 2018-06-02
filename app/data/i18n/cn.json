@@ -23,5 +23,29 @@
 "SCHOOL_LIST_TEXT": {
 	"header": "美国的学校",
 	"text": "在您选择赴美学习之前，请务必阅读我们网站上的信息，并且了解越多关于美国生活和学习的知识，对您和您的家人在美国留学会有很大的帮助。"
-}
+},
+"survey_form": {
+  "survey": "客户调查问卷",
+  "firstName": "名字",
+  "lastName": "姓",
+  "email": "电子邮件",
+  "phone": "电话",
+  "address": "地址",
+  "postal":"邮编", 
+  "state": "省份",
+  "birthday":"生日",
+  "elementarySchool":"小学",
+  "middleSchool": "初中",
+  "highSchool":"高中",
+  "schoolName": "学校名称",
+  "comment":"其他问题",
+  "contact": "个人联系方式",
+  "education": "求学经历",
+  "startDate": "入学时间",
+  "endDate": "毕业时间",
+  "next": "下一页",
+  "previous": "上一页",
+  "submit": "提交",
+  "success_msg": "信息提交成功"
+  }
 }

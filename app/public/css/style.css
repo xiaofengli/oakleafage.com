@@ -375,7 +375,6 @@ http://tool.c7sky.com/webcolor/
 	line-height:2;
 }
 
-
 /* Footer Right */
 .footer-distributed .footer-right {
 	width: 20%;
@@ -462,7 +461,6 @@ http://tool.c7sky.com/webcolor/
 }
 
 /**  chat-display **/
-
 .chat-display {
   min-height: 150px;
   max-height: 40vh;
@@ -477,8 +475,6 @@ http://tool.c7sky.com/webcolor/
 
 
 /*The following style is used in survey form*/
-
-
 .form-control {
   font-weight: 100;
   font-size: 1.7rem;
@@ -537,21 +533,13 @@ label {
 .form-group {
 	float: middle;
 }
+
 .container_feedback {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: 40%;
 }
-/* End of survey form*/
-
-
-
-
-
-
-
-
 
 #regForm {
   background-color: #ffffff;
@@ -620,3 +608,5 @@ button:hover {
 .step.finish {
   background-color: #4CAF50;
 }
+
+/* End of survey form*/

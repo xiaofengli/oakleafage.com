@@ -8,166 +8,83 @@
           </div>
         </header>
     <div class="container">
-      <div class="row">
+      <div class="row regForm">
         <div class="col-sm-4">
 
-          <h1 class="feedback-form-title">Survey</h1>
-          <!--
-          <form class="feedback-form" enctype="multipart/form-data" method="post">
-
-            <div class="form-group">
-              <label for="feedback-form-name">First Name</label>
-              <input type="text", class="form-control" placeholder="Enter your firstname" name="firstname">
-            </div>
-
-            <div class="form-group">
-              <label for="feedback-form-title">Last Name</label>
-              <input type="text" class="form-control" placeholder="Enter your lastname" name="lastname">
-            </div>
-
-            <div class="form-group">
-                <label for="feedback-form-title">Email</label>
-                <input type="email" class="form-control" placeholder="Enter your Email" name="email" >
-            </div>
-
-            <div class="form-group">
-                <label for="feedback-form-title">Phone</label>
-                <input type="text" class="form-control" name="phone" placeholder="Enter your Phone number">
-            </div>
-
-            <div class="form-group">
-                <label for="feedback-form-title"> Address</label><br>
-                <p>Street Address
-                    <span><input type="text" class="form-control" name="Address" placeholder="Address"></span> 
-                
-                </p>
-                <p>State/Province
-                    <span><input type="text" class="form-control" name="State" placeholder=""></span> 
-                </p><p>Postal Code
-                
-                    <span><input type="text" class="form-control" name="Postal" placeholder=""></span> 
-                    </span>
-                </p>
-    </div> 
-            <div class="form-group">
-              <label for="feedback-form-title">DOB</label>
-              <input type="date" class="form-control" name="DOB" placeholder="MMDDYYYY">
-            </div>
-            <div class="form-group">
-            <label for="feedback-form-title">Elementary School </label>
-            <p>School Name
-                <span><input type="text" class="form-control" name="eschoolname" placeholder="Name"></span> 
-            
-            </p>
-            <p>Start Date
-                <span><input type="date" class="form-control" name="eschoolstart" placeholder="MMDDYYYY"></span> 
-            </p><p>End Date
-            
-                <span><input type="date" class="form-control" name="eschoolend" placeholder="MMDDYYYY"></span> 
-                </span>
-            </p>
-            </div>
-
-            <div class="form-group">
-                <label for="feedback-form-title">Middle School </label><br>
-                <p>School Name
-                    <span><input type="text" class="form-control" name="mschoolname" placeholder="Name"></span> 
-                
-                </p>
-                <p>Start Date
-                    <span><input type="date" class="form-control" name="mschoolstart" placeholder="MMDDYYYY"></span> 
-                </p><p>End Date
-                
-                    <span><input type="date" class="form-control" name="mschoolend" placeholder="MMDDYYYY"></span> 
-                    </span>
-                </p>
-            </div>
-
-            <div class="form-group">
-                    <label for="feedback-form-title">High School </label><br>
-                    <p>School Name
-                        <span><input type="text" class="form-control" name="hschoolname" placeholder="Name"></span> 
-                    
-                    </p>
-                    <p>Start Date
-                        <span><input type="date" class="form-control" name="hschoolstart" placeholder="MMDDYYYY"></span> 
-                    </p><p>End Date
-                    
-                        <span><input type="date" class="form-control" name="hschoolend" placeholder="MMDDYYYY"></span> 
-                        </span>
-                    </p>
-            </div>
-
-            <div class="form-group">
-                        <label for="feedback-form-title"> College</label><br>
-                        <p>School Name
-                            <span><input type="text" class="form-control" name="cschoolname" placeholder="Name"></span> 
-                        
-                        </p>
-                        <p>Start Date
-                            <span><input type="date" class="form-control" name="cschoolstart" placeholder="MMDDYYYY"></span> 
-                        </p><p>End Date
-                        
-                            <span><input type="date" class="form-control" name="cschoolend" placeholder="MMDDYYYY"></span> 
-                            </span>
-                        </p>
-            </div>        
-            
-            
-            <div class="form-group">
-                <label for="feedback-form-message">Comments</label>
-                <textarea type="text" placeholder="Enter your message, then hit the submit"  class="form-control" name="feedback-form-comments" rows="6"></textarea>
-            </div>
-            
-            <div class="form-group">
-                <label for="feedback-form-title">PassPort Upload</label>
-                <input type="file" name="photo" id="feedback-form-passport" accept=".jpg, .jpeg, .png">
-            </div>
-            
-            <input type="submit" onclick="myFunction()" class="btn btn-default pull-right">
-          </form>
-        -->
-
-
-
-
+          <h1 class="feedback-form-title"><%=translation.survey_form.survey%></h1>
+    
           <form  class="feedback-form" id="regForm"  enctype="multipart/form-data" method="post">
             
             <!-- One "tab" for each step in the form: -->
             <div class="tab">
-              <label for="feedback-form-title">Name</label><br>
-              <p><input type="text" placeholder="First name"  name="firstname"></p>
-              <p><input placeholder="Last name"  name="lname"></p>
+            
+              <label for="feedback-item"> <%=translation.survey_form.contact%></label><br>
+              <p> <label for="feedback-item"><%=translation.survey_form.firstName%></label> 
+                  <input type="text" placeholder="First name" name="firstname">
+              </p>
+              <p> <label for="feedback-item"><%=translation.survey_form.lastName%></label>
+              	  <input placeholder="Last name" name="lname">
+              </p>
+              
+            
+              <p> <label for="feedback-item"><%=translation.survey_form.email%></label> 
+               	  <input type="text" placeholder="E-mail..." name="email">
+              </p>
+              <p><label for="feedback-item"><%=translation.survey_form.phone%></label>
+            	  <input placeholder="Phone" name="phone"></p>
+              <p><label for="feedback-item"><%=translation.survey_form.address%></label>
+                  <input placeholder="Address" name="Address"></p>
+              <p><label for="feedback-item"><%=translation.survey_form.postal%></label>
+                  <input placeholder="Postal" name="zipcode"></p>
+              <p><label for="feedback-item"><%=translation.survey_form.state%></label>
+                  <input placeholder="State" name="state"></p>
 
-
-              <label for="feedback-form-title"> Contact Info</label><br>
-              <p><input type="text" placeholder="E-mail..." name="email"></p>
-              <p><input placeholder="Phone" name="phone"></p>
-              <p><input placeholder="Address" name="Address"></p>
-              <p><input placeholder="Postal" name="zipcode"></p>
-              <p><input placeholder="State" name="state"></p>
-
-              <label for="feedback-form-title">BirthDay</label><br>
-              <p><input type="date" placeholder="dd" name="dd"></p>
+              <p><label for="feedback-item"><%=translation.survey_form.birthday%></label>
+                 <input type="date" placeholder="dd" name="dd"></p>
             </div>
+            
             <div class="tab">
-              <label for="feedback-form-title">Elementary School</label><br>
-              <p><input placeholder="School Name" name="eschoolname"></p>
-              <p><input type="date" placeholder="Start Date" name="eschoolstart"></p>
-              <p><input type="date" placeholder="End Date" name="eschoolend"></p>
-              <label for="feedback-form-title">Middle School</label><br>
-              <p><input placeholder="School Name" name="mschoolname"></p>
-              <p><input type="date" placeholder="Start Date" name="mschoolstart"></p>
-              <p><input type="date" placeholder="End Date" name="mschoolend"></p>
-              <label for="feedback-form-title">High School</label><br>
-              <p><input placeholder="School Name" name="hschoolname"></p>
-              <p><input type="date" placeholder="Start Date" name="hschoolstart"></p>
-              <p><input type="date" placeholder="End Date" name="hschoolend"></p>
-
-
+              <label for="feedback-form-title"><%=translation.survey_form.elementarySchool%></label><br>
+              <p><label for="feedback-item"><%=translation.survey_form.schoolName%>
+              	<input placeholder="School Name" name="eschoolname">
+              </p>
+              <p>
+              	<label for="feedback-item"><%=translation.survey_form.startDate%>
+              	<input type="date" placeholder="Start Date" name="eschoolstart">
+              </p>
+              <p>
+              	<label for="feedback-item"><%=translation.survey_form.endDate%>
+              	<input type="date" placeholder="End Date" name="eschoolend">
+              </p>
+              	
+              <label for="feedback-form-title"><%=translation.survey_form.middleSchool%></label><br>
+              <p><label for="feedback-item"><%=translation.survey_form.schoolName%>
+                 <input placeholder="School Name" name="mschoolname">
+              </p>
+              <p><label for="feedback-item"><%=translation.survey_form.startDate%>
+                 <input type="date" placeholder="Start Date" name="mschoolstart">
+              </p>
+              <p><label for="feedback-item"><%=translation.survey_form.endDate%>
+              	 <input type="date" placeholder="End Date" name="mschoolend">
+              </p>
+              
+              <label for="feedback-form-title"><%=translation.survey_form.highSchool%></label><br>
+              <p>
+              	<label for="feedback-item"><%=translation.survey_form.schoolName%>
+              	<input placeholder="School Name" name="hschoolname">
+              </p>
+              <p>
+              	 <label for="feedback-item"><%=translation.survey_form.startDate%>
+             	 <input type="date" placeholder="Start Date" name="hschoolstart">
+              </p>
+              <p>
+              	<label for="feedback-item"><%=translation.survey_form.endDate%>
+              	<input type="date" placeholder="End Date" name="hschoolend">
+              </p>
             </div>
+
             <div class="tab">
-                    <label for="feedback-form-title">Feedback</label><br>
+                    <label for="feedback-form-title"><%=translation.survey_form.comment%></label></label><br>
                 <textarea type="text" placeholder="Enter your message, then hit the submit"  class="form-control" name="feedback-form-comments" rows="6"></textarea>
                 <label for="feedback-form-title">Passport Upload</label><br>
                 <input type="file" name="photo" id="feedback-form-passport" accept=".jpg, .jpeg, .png">
@@ -184,20 +101,15 @@
               <span class="step"></span>
               <span class="step"></span>
               <span class="step"></span>
-              
-              
             </div>
           </form>
         </div><!-- primary -->
-        <aside class="col-sm-8">
-          <div class="maincontent feedback">
-              <h2 class="article-title"></h2>
-              <div class="feedback-messages"></div>
-          </div>
-        </aside><!-- secondary -->
+        
       </div>
       
     </div><!-- container -->
+    
+    
     <% include partials/template/jsdefaults.ejs %>
     <% include partials/template/header.ejs %>
     <% include partials/template/footer.ejs %>
