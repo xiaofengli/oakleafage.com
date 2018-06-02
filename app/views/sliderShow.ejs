@@ -45,12 +45,10 @@ function carousel() {
 
 <div class="slideshow">
   <div id="slider">
-      <% console.log(sliderImage[0]); %>
-    
-        <% for (var i=0;i< sliderImage.length;i++) { %>
-        	<%= sliderImage[i].image %>
-        	<img class="mySlides w3-animate-fading" src= ../images/sliderpic/<%= sliderImage[i].name %> />
-        	<div class="text"><font color="red"><%= sliderImage[i].description %></font></div>
+        <% for (var i=0;i< translation.sliderImage.length;i++) { %>
+        
+        	<img class="mySlides w3-animate-fading" src= ../images/sliderpic/<%= translation.sliderImage[i].name %> />
+        	<div class="text"><font color="red"><%= translation.sliderImage[i].description %></font></div>
         <% } %>
         <div class="background">  
   </div>
