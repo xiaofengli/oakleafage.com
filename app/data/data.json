@@ -36,8 +36,6 @@
     }
   ] ,
     
-    "sliders":["n1.png","n2.png","n3.png","n4.png","n5.png","n6.png","n7.png","n8.png","n9.png","n10.png"]
-    ,
   
   "en": [{
     "title" : "US Highschool",
@@ -80,5 +78,38 @@
     "image" : []
     }
    ]
-  }
+  },
+  
+  "sliderImage":[ 
+       { "name": "n1.png",
+         "description": "this is a demo"
+       },
+       { "name": "n2.png",
+         "description": "this is a demo"
+       },
+       { "name": "n3.png",
+         "description": "this is a demo"
+       },
+       { "name": "n4.png",
+         "description": "this is a demo"
+       },
+       { "name": "n5.png",
+         "description": "this is a demo"
+       },
+       { "name": "n6.png",
+         "description": "this is a demo"
+       },
+       { "name": "n7.png",
+         "description": "this is a demo"
+       },
+       { "name": "n8.png",
+         "description": "this is a demo"
+       },
+       { "name": "n9.png",
+         "description": "this is a demo"
+       },
+       { "name": "n10.png",
+         "description": "this is a demo"
+       }     
+     ]                                    
 }

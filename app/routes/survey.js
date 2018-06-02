@@ -36,7 +36,7 @@ router.post('/survey', function(req,res){
 		}
 		var feedbackData=[];
 		feedbackData.unshift(req.body);
-		fs.writeFile('app/data/feedbacks/'+ feedbackData[0].firstname+ Date.now() +'.json', JSON.stringify(feedbackData), 'utf8', function(err) {
+		fs.writeFile('app/data/survey/'+ feedbackData[0].firstname+ Date.now() +'.json', JSON.stringify(feedbackData), 'utf8', function(err) {
 			if (err) {
 			  console.log(err);
 			}
