@@ -235,6 +235,23 @@ header .jumbotron {
 
 
 }
+
+.slideshow {       
+	align-items: cover;      
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	position: cover;
+}
+
+/** slider size **/
+#slider {
+	border: 0px solid #FFEB8B;       /** frame of the slideshow **/
+	height: 620px;
+	overflow: hidden;
+	width: cover;
+}
 /** image size **/
 #slider img {
 	height: 620px;
