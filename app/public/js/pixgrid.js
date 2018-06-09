@@ -16,6 +16,16 @@ function showModalImage() {
 	  var img = document.getElementById(i);
 	  var modalImg = document.getElementById("img"+i);
 	  var captionText = document.getElementById("caption"+i);
+	  
+	  
+	  $.getJSON("//localhost:3000/data/i18n/cn.json", function( data ) {
+		  var items = [];
+		  $.each( data, function( key, val ) {
+		    items.push( "<li id='" + key + "'>" + val + "</li>" );
+		  });
+		  console.log(items);
+	  });
+	  
 	  img.onclick = function() {
 	      modal.style.display = "block";
 	      
@@ -23,7 +33,7 @@ function showModalImage() {
 	      var fileName= basename(this.src).split('.');
 	      var fileBaseName = fileName[0];
 	      var fileExtension = fileName[1];
-	      console.log(fileName);
+	      // console.log(fileName);
 	     
 	      // Here there is a bug, the path is not ok
 	      var temp="../images/schools/"+fileBaseName+"_big." + fileExtension; 
@@ -43,5 +53,18 @@ function showModalImage() {
 	  i=i+1;
 	}
 }
+
+
+function checkKeyPressed(e) {
+    if (e.keyCode == '27') {
+    	//TODO please use query .find('img').length>0, and make sure that src has a photo value
+    	// then set the style display:none
+    	//imageModal.find('img')
+    	$("#Modal16").css("display","none");
+    }
+}
+
+//Esc can close the window
+window.addEventListener("keydown", checkKeyPressed, false);
 
 showModalImage(); 
