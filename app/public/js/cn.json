@@ -1,0 +1,145 @@
+{
+"NAV_MENU": {
+	"HOME_TITLE": "橡叶教育", 
+	"HOME": "首页",
+	"SERVICES":"留学服务",
+	"CASES":"成功案例"
+},
+"MAIN_PAGE_TEXT": {
+	"PART1": {"header": "关于橡叶教育",
+	          "text": "<p>橡叶教育成总部坐落在美国东海岸景色秀丽的新泽西州，距离纽约市开车约三十分钟，距离费城大概开车一个小时。橡叶教育前身成立于2008年伊利诺伊州厄巴纳香槟市，多年来我们一直以培养精英中国留学生为己任，专注于精英式高端的留学服务。迎来了一批又一批的学生，又送走了一批又一批的学生。我们的学生目前于美国各地，很多已经定居美国，有很多已经返回中国并在很多重要的工作岗位中开始了自己的职业生涯。</p><p>橡叶教育帮助广大留学生提供高中留学服务，大学留学服务，大学转学服务及留学生课程补习业务。近年来我们和很多国内的教育机构联合举行小学生夏令营，冬令营北美游学服务，希望能让更多的还未出过留学的学生有机会提前看看国外的学习和生活，风光和人文文化。</p>"
+	         },
+	"PART2": {"header": "专注于大学升学学科指导",
+	         "text": "<p>我们的擅长于美国高中学生留学的管理，这也是我们有别于其他中介服务的原因。这其中不仅仅包括学生的衣食住行，我们有强大的老师团队去跟进学生平时的学习生活。在小留学生需要帮助的时候，我们可以安排课程补习，作业检查和课外辅导。在升大学的时候，我们为学生们组织讲座，让学生们了解热门专业，理解自己的长处和兴趣所在，并且帮助学生申请美国名牌大学。</p>"
+			 },
+	"PART3": {"header": "专注于大学各种专业的申请",
+			  "text": "<ul><li>我们不仅专注于理工科，医学，金融会计，建筑等传统专业。</li><li>我们有大量的申请经验在音乐，美术等艺术专业的成功申请经验。</li><li>根据在中国或者美国大专，大学在读生的专业情况，提出更好的升学方案，帮助学生找到一个专业更好的大学。</li><p>"
+			 }		
+},
+"SIDEBAR_TEXT": {
+	"header": "Who should come?",
+	"text": "<li>Anybody interested in art and the creative industry</li><li>Painters, sculptors, photographers and graphic artists</li><li>Those interested in meeting and making a connection with others in the local art scene.</li>"
+},
+"SCHOOL_LIST_TEXT": {
+	"header": "美国的学校",
+	"text": "在您选择赴美学习之前，请务必阅读我们网站上的信息，并且了解越多关于美国生活和学习的知识，对您和您的家人在美国留学会有很大的帮助。"
+},
+"survey_form": {
+  "survey": "客户调查问卷",
+  "firstName": "名字",
+  "lastName": "姓",
+  "email": "电子邮件",
+  "phone": "电话",
+  "address": "地址",
+  "postal":"邮编", 
+  "state": "省份",
+  "birthday":"生日",
+  "elementarySchool":"小学",
+  "middleSchool": "初中",
+  "highSchool":"高中",
+  "schoolName": "学校名称",
+  "comment":"其他问题",
+  "contact": "个人联系方式",
+  "education": "求学经历",
+  "startDate": "入学时间",
+  "endDate": "毕业时间",
+  "next": "下一页",
+  "previous": "上一页",
+  "submit": "提交",
+  "success_msg": "信息提交成功"
+  },
+  "dropdown":[
+  	{
+    "title" : "高中留学",
+    "name": "美国高中留学咨询",
+    "shortname" : "highschool",
+    "summary" : "",
+    "description": "<p>橡叶留学的高中留学服务包括帮助中国小留学生来到美国的私立高中和初中学习，橡叶留学从2008年就开始招收国际高中留学生。我们拥有丰富的美国高中资源和多年的管理经验。我们可以根据每个小留学生自身不同的情况，在申请之前和申请学生的家长进行深度沟通，答疑并且提出我们的建议和意见。近年来在美国留学的小留学生越来越多，相应出现的问题也很多，这是很多家长都非常关心的问题。对于我们来说，学生在学习上的进步，身心健康成长，和人身安全都是我们非常关心的问题。根据我们常年的留学管理经验，我们可以很骄傲地告诉我们的家长，我们所有的学生都很顺利的完成了高中学业，而且全部进入了美国的名牌大学（前一百名）。我们的同学分散在美国各个地区的大学，他们从事的专业从计算机，数学，物理等理工专业，到语言学，营养学，会计，金融，建筑，音乐，美术等其他学科。很多同学甚至刚来的时候学习情况并不乐观，或者很多小留学生有心理问题，或者一些同学由于年纪小，孤独，具有很多个人问题，在我们的悉心培育下，大家都快乐的成长，认识了很多美国的朋友，一起快乐的学习。</p><p>我们的服务包括：<ul><li>申请美国的高中</li><li>联系寄宿家庭</li><li>寄宿家庭的管理</li><li>和家长定时沟通学生的学习情况和生活情况</li><li>K11,K12的学生，我们会为小留学生安排预约TOEFL和ACT的考试</li><li>我们会和学校沟通悉心的为学生量身定制适合他们自身情况的选课计划</li><li>为我们的学生制定大学升学计划，包括如何选择未来的大学及专业</li><li>和我们的合作高中密切合作，为学生升入美国名牌大学包装个人申请材料</li></ul></p> <p>高中留学适应的人群：初中在读生和高中在读生。</p>",
+    "image": []
+    },
+    {
+    "title" : "美国本科留学",
+    "name": "美国本科留学咨询",
+    "shortname" : "undergraduate",
+    "summary": "",
+    "description": "<p>橡叶留学的本科留学服务定位于高，精，尖的留学服务。我们所有的留学院校均是美国前几十名的大学。根据学生的情况，我们会根据学生的经济情况，学习情况，个人喜好，为我们的学生选择最合适的大学。我们的留学申请工作是基于我们多年申请经验的大数据。我们会为本科申请学生提供最优秀的专业选择咨询，让学生们学习到自己喜欢的专业。我们专注于很多专业的申请，包括理工科，例如计算机，数学，物理，化学； 工程专业，例如土木工程，建筑设计，园林设计；艺术类专业： 音乐，电影，传媒及美术。</p><p>橡叶留学本科留学服务的适宜人群: <ul><li>国内高三在读学生。</li><li>国内大专在读生</li><li>国内本科在读生</li></p>",
+    "image" : ["columbia.png" , "nyc.png" , "princeton.png", "ucla.png", "ucsd.png", "ucsb.png", "ui.png","isu.png","iu.png","uiuc.png","umich.png","msu.png", "uo.png","cmu.png","pitt.png","upenn.jpg","ru.jpg"]
+    },
+    {
+    "title" : "高中夏令营",
+    "name": "高中夏令营",
+    "shortname" : "summercamp",
+    "summary": "",
+    "description": "<p>橡叶留学夏令营活动适合于各个年龄层的学生，我们有中学生夏令营和大学生夏令营。夏令营活动主要能够使国内的学生感受到欧美的教育，享受一下游学的经历。在这过程我们会安排学生们参观美国的东海岸的著名城市和大学。例如，纽约市，华盛顿特区，学生们能够亲自参观曼哈顿，华尔街，自由女神，白宫及国会山。我们还会安排学生们参观美国顶级大学，例如哥伦比亚大学，普林斯顿大学，纽约大学， 罗格斯大学和宾夕法尼亚大学。</p><p>适宜申请人群：<ul><li>国内初中，高中在读生</li><li>国内大专，本科在读生</li></ul></p><p>夏令营游学项目： <ul><li>美国东部20日游学活动（纽约，新泽西，费城，华盛顿特区）</li><li>美国西部10日游学活动（硅谷，旧金山，洛杉矶）</li></ul></p>",
+    "image" : []
+    },
+    {
+    "title" : "在美转学咨询",
+    "name": "在美转学咨询",
+    "shortname" : "transfer",
+    "summary": "",
+    "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p> <div style='display:inline-block'><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p></div>",
+    "image" : []
+    },
+    {
+      "title" : "家庭教师",
+      "name": "Home Tutor",
+      "shortname" : "hometutor",
+      "summary": "",
+      "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p>",
+      "image" : []
+      }
+  ], 
+  "university": [
+    	{"name":"cu", "text":""},
+  		{"name":"princeton", "text":""},
+  		{"name":"nyc", "text":""},
+    	{"name":"ucla", "text":""},
+    	{"name":"ucsd", "text":""},
+    	{"name":"ucsb", "text":""},
+    	{"name":"iu", "text":""},
+    	{"name":"isu", "text":""},
+    	{"name":"ui", "text":""},
+    	{"name":"uiuc", "text":""},
+    	{"name":"umich", "text":""},
+    	{"name":"msu", "text":""},
+    	{"name":"uo", "text":""},
+    	{"name":"cmu", "text":""},
+    	{"name":"up", "text":""},
+    	{"name":"upenn", "text":""},
+    	{"name":"pitt", "text":""}
+  ],
+  
+   "sliderImage":[ 
+       { "name": "n1.png",
+         "description": "this is a demo"
+       },
+       { "name": "n2.png",
+         "description": "this is a demo"
+       },
+       { "name": "n3.png",
+         "description": "this is a demo"
+       },
+       { "name": "n4.png",
+         "description": "this is a demo"
+       },
+       { "name": "n5.png",
+         "description": "this is a demo"
+       },
+       { "name": "n6.png",
+         "description": "this is a demo"
+       },
+       { "name": "n7.png",
+         "description": "this is a demo"
+       },
+       { "name": "n8.png",
+         "description": "this is a demo"
+       },
+       { "name": "n9.png",
+         "description": "this is a demo"
+       },
+       { "name": "n10.png",
+         "description": "this is a demo"
+       }     
+     ]    
+}
