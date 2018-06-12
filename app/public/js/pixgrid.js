@@ -1,6 +1,13 @@
 function basename(path) {
    return path.split('/').reverse()[0];
 }
+//alert(window.location);
+//$.getJSON("../js/cn.json", function(json) {
+//	console.log(json); // this will show the info it in firebug console
+
+//});
+//var hello=window.location.href;
+//alert(hello.split("?")[1]);
 
 function showModalImage() {
 	var i=0;
@@ -39,9 +46,15 @@ function showModalImage() {
 	  span.onclick = function() { 
 	      modal.style.display = "none";
 	  }
-  
+	  document.body.onkeydown = function(e){
+		  if(e.which==27 || e.keyCode==27){
+			document.getElementById('Modal16').style.display="none";
+		  }
+		
+	  };
 	  i=i+1;
 	}
 }
+
 
 showModalImage(); 
