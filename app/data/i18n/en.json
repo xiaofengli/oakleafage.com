@@ -47,8 +47,9 @@
   "previous": "Previous",
   "submit": "Submit",
   "success_msg": "Your information is successfully submitted"
-  },
-  "dropdown":[{
+  }
+,
+"dropdown":[{
     "title" : "US Highschool",
     "name": "US Highschool",
     "shortname" : "highschool",
@@ -88,8 +89,8 @@
     "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p>",
     "image" : []
     }
-   ],
-   "university": [
+],
+"university": [
     {"name":"cu", "img":"columbia.png","text":"hello"},
     {"name":"princeton", "img":"princeton.png","text":""},
     {"name":"nyc", "img":"nyc.png","text":""},
@@ -108,9 +109,7 @@
     {"name":"upenn","img":"upenn.jpg", "text":""},
     {"name":"pitt", "img":"pitt.png","text":""}
 ],
-
-  
-   "sliderImage":[ 
+"sliderImage":[ 
        { "name": "n1.png",
          "description": "this is a demo"
        },
@@ -141,5 +140,5 @@
        { "name": "n10.png",
          "description": "this is a demo"
        }     
-     ]    
+]    
 }

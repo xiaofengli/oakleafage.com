@@ -24,6 +24,8 @@
 	"header": "美国的学校",
 	"text": "在您选择赴美学习之前，请务必阅读我们网站上的信息，并且了解越多关于美国生活和学习的知识，对您和您的家人在美国留学会有很大的帮助。"
 },
+
+
 "survey_form": {
   "survey": "客户调查问卷",
   "firstName": "名字",
@@ -48,7 +50,8 @@
   "submit": "提交",
   "success_msg": "信息提交成功"
   },
-  "dropdown":[
+
+"dropdown":[
   	{
     "title" : "高中留学",
     "name": "美国高中留学咨询",
@@ -83,13 +86,14 @@
     },
     {
       "title" : "家庭教师",
-      "name": "Home Tutor",
+      "name": "家庭教师",
       "shortname" : "hometutor",
       "summary": "",
       "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p>",
       "image" : []
       }
-  ], 
+],
+  
   "university": [
     	{"name":"cu", "img":"columbia.png","text":"你好"},
   		{"name":"princeton", "img":"princeton.png","text":""},

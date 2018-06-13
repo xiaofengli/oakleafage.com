@@ -24,15 +24,6 @@ function showModalImage() {
 	  var modalImg = document.getElementById("img"+i);
 	  var captionText = document.getElementById("caption"+i);
 	  
-	  
-	  $.getJSON("//localhost:3000/data/i18n/cn.json", function( data ) {
-		  var items = [];
-		  $.each( data, function( key, val ) {
-		    items.push( "<li id='" + key + "'>" + val + "</li>" );
-		  });
-		  console.log(items);
-	  });
-	  
 	  img.onclick = function() {
 	      modal.style.display = "block";
 	      
