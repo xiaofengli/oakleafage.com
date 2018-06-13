@@ -20,7 +20,7 @@
                   <% sum=0; %>
                 <% translation.dropdown.forEach(function(item) { %>
                   <li><a href="/services/<%= item.shortname %>">
-                        <%= item.name %>
+                        <%= translation.dropdown[sum].title %>
                         <% sum=sum+1; %>
                       </a>
                   </li>

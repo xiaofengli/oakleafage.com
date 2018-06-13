@@ -9,18 +9,21 @@
     <%= console.log(translation.university.length); %>
     <% if (image.length > 0) { %>
     <% for (i=0; i< image.length; i++) { %>
+        <%hello1=translation.university[i].text;%>
+        <%hello1=hello1.split(" ").join("!")%>
         
-        <img id="<%= i %>" class= "pixgrid_img" src="/images/schools/<%= translation.university[i].img %>" alt=<%=translation.university[i].text%> >
+        
+        <img id="<%= i %>" class= "pixgrid_img" src="/images/schools/<%= translation.university[i].img %>" alt=<%=hello1%> >
         <div id="Modal<%= i %>" class="modal">
           <span class="close">&times;</span>
           <img class="modal-contents" id="img<%= i %>">
-          <div class="modal-caption" id="caption<%= i %>"><%=i%></div>
+          <div class="modal-caption" id="caption<%= i %>"></div>
         </div>
-        
+       
     <% } %>
     <% } %>
   </div>
-
+  
  
 </article>
 

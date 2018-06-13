@@ -35,9 +35,11 @@ function showModalImage() {
 	     
 	      // Here there is a bug, the path is not ok
 	      var temp="../images/schools/"+fileBaseName+"_big." + fileExtension; 
-	      modalImg.src = temp;
-	    
-	      captionText.innerHTML = this.alt;
+		  modalImg.src = temp;
+		  console.log(img.alt);
+		  var plswork=this.alt.split("!").join(" ");
+	
+	      captionText.innerHTML = plswork;
 	  }
 	  
 	  // Get the <span> element that closes the modal
