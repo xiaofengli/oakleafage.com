@@ -50,7 +50,7 @@
   }
 ,
 "dropdown":[{
-    "title" : "US Highschool",
+    "title" : "US High School",
     "name": "US Highschool",
     "shortname" : "highschool",
     "summary" : "",
@@ -66,7 +66,7 @@
        "image" : ["columbia.png" , "nyc.png" , "princeton.png", "ucla.png", "ucsd.png", "ucsb.png", "ui.png","isu.png","iu.png","uiuc.png","umich.png","msu.png", "uo.png","cmu.png","pitt.png","upenn.jpg","ru.jpg"]
     },
     {
-    "title" : "US Summercamp",
+    "title" : "US Summer Camp",
     "name": "US Summercamp",
     "shortname" : "summercamp",
     "summary": "",

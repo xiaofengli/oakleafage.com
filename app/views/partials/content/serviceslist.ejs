@@ -2,9 +2,10 @@
   
   <div class="container">
     <div class="row">
-        <% var counter = 0; %>
-        <% for (x in services) {
-             item = services[x];
+        <% var counter = 0; 
+           services = translation.dropdown;
+           for (x in services) {
+           item = services[x];
          %>
          
         <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">

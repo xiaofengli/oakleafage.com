@@ -2,10 +2,10 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/services', (req, res) => {
-  var data = req.app.get('appData');
+  var data = req.app.get('i18n') === 'CN' ?  req.app.get('cnData') : req.app.get('enData');
   var pagePhotos = [];
-  var pageServices = req.app.get('i18n') === 'CN' ? data.services.cn : data.services.en;
-  console.log(req.app.get('i18n'));
+  var pageServices = data.dropdown;
+
   pageServices.forEach(function(item) {
     pagePhotos = pagePhotos.concat(item.image);
   });
@@ -19,10 +19,11 @@ router.get('/services', (req, res) => {
 });
 
 router.get('/services/:serviceid', (req, res) => {
-  var data = req.app.get('appData');
+  var data = req.app.get('i18n') === 'CN' ?  req.app.get('cnData') : req.app.get('enData');
   var pagePhotos = [];
   var pageServices = [];
-  var services = req.app.get('i18n') === 'CN' ? data.services.cn : data.services.en;
+  var services = data.dropdown;
+
   console.log(req.app.get('i18n'));
    services.forEach(function(item) {
     if (item.shortname == req.params.serviceid) {

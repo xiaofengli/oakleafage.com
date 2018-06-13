@@ -25,7 +25,8 @@ var myLogger = (req, res, next) => {
 app.use(myLogger);
 
 //Load data
-var dataFile = require('./data/data.json');
+var cnFile = require('./data/i18n/cn.json');
+var enFile = require('./data/i18n/en.json');
 var privacyStatement = require('./data/privacy.json');
 var termOfUse = require('./data/termofuse.json');
 var sliderImage = require('./data/slider.json');
@@ -56,7 +57,8 @@ app.use(i18n({
 app.set('port', process.env.PORT || 3000 );
 
 //Assign the var to a key-'appData', app.get('appData'), kinda like global vars
-app.set('appData', dataFile);
+app.set('cnData', cnFile);
+app.set('enData', enFile);
 app.set('termOfUse',termOfUse);
 app.set('privacy',privacyStatement);
 
@@ -65,7 +67,8 @@ app.set('privacy',privacyStatement);
 /* The following variable does not have cn or en difference thus in data.json.
  * For anything that needs to be in cn or en, put them in cn.json or en.json and you can use them directly.
  */
-app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
+
+//app.locals.allServices = app.get('i18n') === 'CN' ? dataFile.services.cn : dataFile.services.en;
 app.locals.SERVICES_NUM = 3; //this is the number of services to show in the index.ejs page.
 
 /*
