@@ -25,13 +25,8 @@ function showModalImage() {
 	  var captionText = document.getElementById("caption"+i);
 	  
 	  
-	  $.getJSON("//localhost:3000/data/i18n/cn.json", function( data ) {
-		  var items = [];
-		  $.each( data, function( key, val ) {
-		    items.push( "<li id='" + key + "'>" + val + "</li>" );
-		  });
-		  console.log(items);
-	  });
+	  
+	  
 	  
 	  img.onclick = function() {
 	      modal.style.display = "block";
@@ -44,9 +39,11 @@ function showModalImage() {
 	     
 	      // Here there is a bug, the path is not ok
 	      var temp="../images/schools/"+fileBaseName+"_big." + fileExtension; 
-	      modalImg.src = temp;
-	    
-	      captionText.innerHTML = this.alt;
+		  modalImg.src = temp;
+		  console.log(img.alt);
+		  var plswork=this.alt.split("!").join(" ");
+	
+	      captionText.innerHTML = plswork;
 	  }
 	  
 	  // Get the <span> element that closes the modal

@@ -627,3 +627,8 @@ button:hover {
 }
 
 /* End of survey form*/
+@media (max-width: 767px){}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #000000;
+}
+}
