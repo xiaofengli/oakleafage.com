@@ -10,11 +10,11 @@
     <% if (image.length > 0) { %>
     <% for (i=0; i< image.length; i++) { %>
         
-        <img id="<%= i %>" class= "pixgrid_img" src="/images/schools/<%= image[i] %>" alt=<%=image[i]%> >
+        <img id="<%= i %>" class= "pixgrid_img" src="/images/schools/<%= translation.university[i].img %>" alt=<%=translation.university[i].text%> >
         <div id="Modal<%= i %>" class="modal">
           <span class="close">&times;</span>
           <img class="modal-contents" id="img<%= i %>">
-          <div class="modal-caption" id="caption<%= i %>"></div>
+          <div class="modal-caption" id="caption<%= i %>"><%=i%></div>
         </div>
         
     <% } %>
