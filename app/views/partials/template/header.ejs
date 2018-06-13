@@ -18,13 +18,13 @@
             <li><a href="/services" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%=translation.NAV_MENU.SERVICES%><span class="caret"><span></a>
               <ul class="dropdown-menu">
                   <% sum=0; %>
-                <% allServices.forEach(function(item) { %>
+                <% translation.dropdown.forEach(function(item) { %>
                   <li><a href="/services/<%= item.shortname %>">
                         <%= translation.dropdown[sum].title %>
                         <% sum=sum+1; %>
                       </a>
                   </li>
-                  <% if(sum!=allServices.length){%>
+                  <% if(sum!=translation.dropdown.length){%>
                   <li role="separator" class="divider"></li> 
                   <%} %>
                 <% }); %>

@@ -24,10 +24,6 @@ function showModalImage() {
 	  var modalImg = document.getElementById("img"+i);
 	  var captionText = document.getElementById("caption"+i);
 	  
-	  
-	  
-	  
-	  
 	  img.onclick = function() {
 	      modal.style.display = "block";
 	      
