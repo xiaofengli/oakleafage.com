@@ -23,11 +23,12 @@ router.get('/services/:serviceid', (req, res) => {
   var pagePhotos = [];
   var pageServices = [];
   var services = data.dropdown;
-
+  var hello;
   console.log(req.app.get('i18n'));
    services.forEach(function(item) {
     if (item.shortname == req.params.serviceid) {
-    	pageServices.push(item);
+      pageServices.push(item);
+      hello=req.params.serviceid;
       pagePhotos = pagePhotos.concat(item.image);
     }
   });
@@ -36,7 +37,8 @@ router.get('/services/:serviceid', (req, res) => {
     pageTitle: 'Service Info',
     image: pagePhotos,
     services: pageServices,
-    pageID: 'serviceDetail'
+    pageID: 'serviceDetail',
+    identify:hello
   });
 });
 
