@@ -1,145 +1,146 @@
 {
-"NAV_MENU": {
-	"HOME_TITLE": "Oakleafage Education",
-	"HOME": "Home",
-	"SERVICES": "Services",
-	"CASES": "Testimony"
-},
-"MAIN_PAGE_TEXT": {
-	"PART1": {"header": "Who are we?",
-	          "text": "<p>The Roux Academy gets thousands of submissions every year for artists interesting in participating in the CAC exhibits, and selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. In addition, 12 individuals are honored as Featured Artists - each being granted his or her own exhibit hall to display entire collections or themed pieces.</p><p>Each Featured Artist has an opportunity to speak at one of our meetups and share his or her vision, perspective, and techniques with attendees on a more personal level than at our large conference. It is truly an honor to be a CAC Featured Artist and many past students artists who were featured at CAC have gone on to brilliant careers in art.</p>"
-	         },
-	"PART2": {"header": "Get Busy!",
-	         "text": "<p>If you want to keep up with what's going on with the group, <a href='http://www.meetup.com/rouxmeet'>join our meetup group</a>, <a href='http://www.twitter.com/rouxmeet'>follow us on twitter</a>. If you're in FaceBook, you can also <a href='http://www.facebook.com/rouxmeet'>join our FaceBook group</a>.</p>"
-			 },
-	"PART3": {"header": "Who should come?",
-			 "text": "<ul><li>Anybody interested in art and the creative industry</li><li>Painters, sculptors, photographers and graphic artists</li><li>Those interested in meeting and making a connection with others in the local art scene.</li></ul>"
-			 }
-},
-"SIDEBAR_TEXT": {
-	"header": "Who should come?",
-	"text": "<li>Anybody interested in art and the creative industry</li><li>Painters, sculptors, photographers and graphic artists</li><li>Those interested in meeting and making a connection with others in the local art scene.</li>"
-},
-"SCHOOL_LIST_TEXT": {
-	"header": "US Schools",
-	"text": "While you attend the conference, head over to our gallery where you can check out some of the work from our speakers."
-}
-,
-"survey_form": {
-  "firstName": "First Name",
-  "lastName": "Last Name",
-  "email": "Email",
-  "phone": "Phone",
-  "address": "Address",
-  "postal":"Postal", 
-  "state": "State",
-  "birthday":"Birth day",
-  "elementarySchool":"Elementary School",
-  "middleSchool": "Middle School",
-  "highSchool":"High School",
-  "schoolName": "School Name",
-  "comment":"Your question",
-  "contact": "Personal Contact",
-  "education": "Education",
-  "startDate": "Start Date",
-  "endDate": "End Date",
-  "next": "Next",
-  "previous": "Previous",
-  "submit": "Submit",
-  "success_msg": "Your information is successfully submitted"
+  "NAV_MENU": {
+    "HOME_TITLE": "Oakleafage Education",
+    "HOME": "Home",
+    "SERVICES": "Services",
+    "CASES": "Testimony"
+  },
+  "MAIN_PAGE_TEXT": {
+    "PART1": {"header": "Who are we?",
+              "text": "<p>The Roux Academy gets thousands of submissions every year for artists interesting in participating in the CAC exhibits, and selects approximately 200 distinct pieces of contemporary art for display in their collective exhibit. In addition, 12 individuals are honored as Featured Artists - each being granted his or her own exhibit hall to display entire collections or themed pieces.</p><p>Each Featured Artist has an opportunity to speak at one of our meetups and share his or her vision, perspective, and techniques with attendees on a more personal level than at our large conference. It is truly an honor to be a CAC Featured Artist and many past students artists who were featured at CAC have gone on to brilliant careers in art.</p>"
+             },
+    "PART2": {"header": "Get Busy!",
+             "text": "<p>If you want to keep up with what's going on with the group, <a href='http://www.meetup.com/rouxmeet'>join our meetup group</a>, <a href='http://www.twitter.com/rouxmeet'>follow us on twitter</a>. If you're in FaceBook, you can also <a href='http://www.facebook.com/rouxmeet'>join our FaceBook group</a>.</p>"
+         },
+    "PART3": {"header": "Who should come?",
+         "text": "<ul><li>Anybody interested in art and the creative industry</li><li>Painters, sculptors, photographers and graphic artists</li><li>Those interested in meeting and making a connection with others in the local art scene.</li></ul>"
+         }
+  },
+  "SIDEBAR_TEXT": {
+    "header": "Who should come?",
+    "text": "<li>Anybody interested in art and the creative industry</li><li>Painters, sculptors, photographers and graphic artists</li><li>Those interested in meeting and making a connection with others in the local art scene.</li>"
+  },
+  "SCHOOL_LIST_TEXT": {
+    "header": "US Schools",
+    "text": "While you attend the conference, head over to our gallery where you can check out some of the work from our speakers."
   }
-,
-"dropdown":[{
-    "title" : "US High School",
-    "name": "US Highschool",
-    "shortname" : "highschool",
-    "summary" : "",
-    "description": "<p>橡叶留学的高中留学服务包括帮助中国小留学生来到美国的私立高中和初中学习，橡叶留学从2008年就开始招收国际高中留学生。我们拥有丰富的美国高中资源和多年的管理经验。我们可以根据每个小留学生自身不同的情况，在申请之前和申请学生的家长进行深度沟通，答疑并且提出我们的建议和意见。近年来在美国留学的小留学生越来越多，相应出现的问题也很多，这是很多家长都非常关心的问题。对于我们来说，学生在学习上的进步，身心健康成长，和人身安全都是我们非常关心的问题。根据我们常年的留学管理经验，我们可以很骄傲地告诉我们的家长，我们所有的学生都很顺利的完成了高中学业，而且全部进入了美国的名牌大学（前一百名）。我们的同学分散在美国各个地区的大学，他们从事的专业从计算机，数学，物理等理工专业，到语言学，营养学，会计，金融，建筑，音乐，美术等其他学科。很多同学甚至刚来的时候学习情况并不乐观，或者很多小留学生有心理问题，或者一些同学由于年纪小，孤独，具有很多个人问题，在我们的悉心培育下，大家都快乐的成长，认识了很多美国的朋友，一起快乐的学习。</p><p>我们的服务包括：<ul><li>申请美国的高中</li><li>联系寄宿家庭</li><li>寄宿家庭的管理</li><li>和家长定时沟通学生的学习情况和生活情况</li><li>K11,K12的学生，我们会为小留学生安排预约TOEFL和ACT的考试</li><li>我们会和学校沟通悉心的为学生量身定制适合他们自身情况的选课计划</li><li>为我们的学生制定大学升学计划，包括如何选择未来的大学及专业</li><li>和我们的合作高中密切合作，为学生升入美国名牌大学包装个人申请材料</li></ul></p> <p>高中留学适应的人群：初中在读生和高中在读生。</p>",
-    "image": []
-    },
-    {
-    "title" : "US Undergraduate",
-    "name": "US Undergraduate",
-    "shortname" : "undergraduate",
-    "summary": "",
-    "description": "<p>橡叶留学的本科留学服务定位于高，精，尖的留学服务。我们所有的留学院校均是美国前几十名的大学。根据学生的情况，我们会根据学生的经济情况，学习情况，个人喜好，为我们的学生选择最合适的大学。我们的留学申请工作是基于我们多年申请经验的大数据。我们会为本科申请学生提供最优秀的专业选择咨询，让学生们学习到自己喜欢的专业。我们专注于很多专业的申请，包括理工科，例如计算机，数学，物理，化学； 工程专业，例如土木工程，建筑设计，园林设计；艺术类专业： 音乐，电影，传媒及美术。</p><p>橡叶留学本科留学服务的适宜人群: <ul><li>国内高三在读学生。</li><li>国内大专在读生</li><li>国内本科在读生</li></p>",
-       "image" : ["columbia.png" , "nyc.png" , "princeton.png", "ucla.png", "ucsd.png", "ucsb.png", "ui.png","isu.png","iu.png","uiuc.png","umich.png","msu.png", "uo.png","cmu.png","pitt.png","upenn.jpg","ru.jpg"]
-    },
-    {
-    "title" : "US Summer Camp",
-    "name": "US Summercamp",
-    "shortname" : "summercamp",
-    "summary": "",
-    "description": "<p>橡叶留学夏令营活动适合于各个年龄层的学生，我们有中学生夏令营和大学生夏令营。夏令营活动主要能够使国内的学生感受到欧美的教育，享受一下游学的经历。在这过程我们会安排学生们参观美国的东海岸的著名城市和大学。例如，纽约市，华盛顿特区，学生们能够亲自参观曼哈顿，华尔街，自由女神，白宫及国会山。我们还会安排学生们参观美国顶级大学，例如哥伦比亚大学，普林斯顿大学，纽约大学， 罗格斯大学和宾夕法尼亚大学。</p><p>适宜申请人群：<ul><li>国内初中，高中在读生</li><li>国内大专，本科在读生</li></ul></p><p>夏令营游学项目： <ul><li>美国东部20日游学活动（纽约，新泽西，费城，华盛顿特区）</li><li>美国西部10日游学活动（硅谷，旧金山，洛杉矶）</li></ul></p>",
-    "image" : []
-    },
-    {
-    "title" : "Transfer Student",
-    "name": "Transfer Student",
-    "shortname" : "transfer",
-    "summary": "",
-  	"description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p> <div style='display:inline-block'><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p></div>",
-    "image" : []
-    },
-    {
-    "title" : "Home Tutor",
-    "name": "Home Tutor",
-    "shortname" : "hometutor",
-    "summary": "",
-    "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p>",
-    "image" : []
+  ,
+  "survey_form": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "postal":"Postal", 
+    "state": "State",
+    "birthday":"Birth day",
+    "elementarySchool":"Elementary School",
+    "middleSchool": "Middle School",
+    "highSchool":"High School",
+    "schoolName": "School Name",
+    "comment":"Your question",
+    "contact": "Personal Contact",
+    "education": "Education",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "success_msg": "Your information is successfully submitted"
     }
-   ],
-   "university": [
-    {"name":"cu", "img":"columbia.png","text":"Columbia University (Columbia officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City. Columbia contains the oldest college in the state of New York and is the fifth chartered institution of higher learning in the United States, making it one of nine colonial colleges founded prior to the Declaration of Independence.The university has graduated many notable alumni. As of 2017, alumni and affiliates include 5 Founding Fathers of the United States – among these an author of the Declaration of Independence and an author of the United States Constitution; 10 Justices of the United States Supreme Court; 95 Nobel laureates; 20 living billionaires; 123 Pulitzer Prize winners; 39 Oscar winners; 3 United States Presidents; 29 heads of state; 101 National Academy members; 77 National Medal of Science winners; and 23 National Humanities Medal recipients."},
-    {"name":"princeton", "img":"princeton.png","text":"Princeton University is a private Ivy League research university in Princeton, New Jersey, United States. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747, then to the current site nine years later, where it was renamed Princeton University in 1896."},
-    {"name":"nyc", "img":"nyc.png","text":"New York University (NYU) is a private nonprofit research university based in New York City. Founded in 1831, NYU's main campus is centered in Manhattan, located with its core in Greenwich Village, and campuses based throughout New York City. NYU is also a worldwide university, operating NYU Abu Dhabi and NYU Shanghai, and centers in Accra, Berlin, Buenos Aires, Florence, London, Madrid, Paris, Prague, Sydney, Tel Aviv, and Washington, D.C."},
-    {"name":"ucla","img":"ucla.png", "text":"The University of California, Los Angeles (UCLA) is a public research university in the Westwood district of Los Angeles, United States. It became the Southern Branch of the University of California in 1919, making it the second-oldest undergraduate campus of the ten-campus University of California system.[11] It offers 337 undergraduate and graduate degree programs in a wide range of disciplines.[12] UCLA enrolls about 31,000 undergraduate and 13,000 graduate students,[7] and had 119,000 applicants for Fall 2016, including transfer applicants, the most applicants for any American university."},
-    {"name":"ucsd","img":"ucsd.png", "text":"The University of California, San Diego[a] is a public research university located in the La Jolla neighborhood of San Diego, California, in the United States.[12] The university occupies 2,141 acres (866 ha) near the coast of the Pacific Ocean with the main campus resting on approximately 1,152 acres (466 ha).[13] Established in 1960 near the pre-existing Scripps Institution of Oceanography, UC San Diego is the seventh oldest of the 10 University of California campuses and offers over 200 undergraduate and graduate degree programs, enrolling about 28,000 undergraduate and 7,000 graduate students."},
-    {"name":"ucsb","img":"ucsb.png", "text":"The University of California, Santa Barbara (commonly referred to as UC Santa Barbara or UCSB) is a public research university and one of the 10 campuses of the University of California system. The main campus is located on a 1,022-acre (414 ha) site near Isla Vista, California, United States, 8 miles (13 km) from Santa Barbara and 100 miles (160 km) northwest of Los Angeles. Tracing its roots back to 1891 as an independent teachers' college, UCSB joined the University of California system in 1944 and is the third-oldest general-education campus in the system."},
-    {"name":"iu","img":"iu.png", "text":"Indiana University (IU) is a multi-campus public university system in the state of Indiana, United States.[2] Indiana University has a combined student body of more than 110,000 students, which includes approximately 46,000 students enrolled at the Indiana University Bloomington campus and approximately 31,000 students enrolled at the Indiana University – Purdue University Indianapolis (IUPUI) campus."},
-    {"name":"isu", "img":"isu.png","text":"Illinois State University (ISU) is a public university in Normal, Illinois. Founded in 1857 as Illinois State Normal University, it is the oldest public university in Illinois. The university emphasizes teaching and is recognized as one of the top ten largest producers of teachers in the US according to the American Association of Colleges of Teacher Education.[7][8] The university's athletic teams are members of the Missouri Valley Conference and the Missouri Valley Football Conference and are known as the 'Redbirds,' in reference to the state bird, the cardinal."},
-    {"name":"ui", "img":"ui.png","text":""},
-    {"name":"uiuc","img":"uiuc.png", "text":"The University of Illinois at Urbana–Champaign (also known as U of I, Illinois, or colloquially as the University of Illinois or UIUC)[7][8] is a public research university in the U.S. state of Illinois. Founded in 1867 as a land-grant institution in the twin cities of Champaign and Urbana, it is the flagship campus of the University of Illinois system and a founding member of the Big Ten Conference."},
-    {"name":"umich", "img":"umich.png","text":"The University of Michigan (UM, U-M, U of M, or UMich), often simply referred to as Michigan, is a public research university in Ann Arbor, Michigan. The University of Michigan is the state's oldest university, founded in 1817 in Detroit, Michigan as the Catholepistemiad, or University of Michigania, 20 years before the Michigan Territory became a state. It moved to Ann Arbor in 1837 onto 40 acres (16 ha) of what is now known as Central Campus. Since its establishment in Ann Arbor, the university campus has expanded to include more than 584 major buildings with a combined area of more than 34 million gross square feet (780 acres; 3.2 km2) spread out over a Central Campus and North Campus, two regional campuses in Flint and Dearborn, and a Center in Detroit. The University was a founding member of the Association of American Universities."},
-    {"name":"msu","img":"msu.png", "text":"Michigan State University (MSU) is a public research university in East Lansing, Michigan, United States. MSU was founded in 1855 and served as a model for land-grant universities later created under the Morrill Act of 1862.[4] The university was founded as the Agricultural College of the State of Michigan, one of the country's first institutions of higher education to teach scientific agriculture.[5] After the introduction of the Morrill Act, the college became coeducational and expanded its curriculum beyond agriculture. Today, MSU is one of the largest universities in the United States (in terms of enrollment) and has approximately 552,000 living alumni worldwide."},
-    {"name":"uo","img":"uo.png", "text":"The University of Oregon (also referred to as UO, U of O or Oregon) is a public flagship research university in Eugene, Oregon. Founded in 1876, the institution's 295-acre campus is along the Willamette River. Since July 2014, UO has been governed by the Board of Trustees of the University of Oregon. The university has a Carnegie Classification of 'highest research activity' and has 19 research centers and institutes. UO was admitted to the Association of American Universities in 1969."},
-    {"name":"cmu","img":"cmu.png", "text":"Carnegie Mellon University (Carnegie Mellon or CMU /ˈkɑːrnɪɡi ˈmɛlən/ or /kɑːrˈneɪɡi ˈmɛlən/) is a private research university in Pittsburgh, Pennsylvania.</p><p>Founded in 1900 by Andrew Carnegie as the Carnegie Technical Schools, the university became the Carnegie Institute of Technology in 1912 and began granting four-year degrees. In 1967, the Carnegie Institute of Technology merged with the Mellon Institute of Industrial Research to form Carnegie Mellon University."},
-    {"name":"up", "img":"ru.jpg","text":"The University of Pennsylvania (commonly known as Penn or UPenn) is a private Ivy League research university located in the University City section of Philadelphia. Incorporated as The Trustees of the University of Pennsylvania, Penn is one of 14 founding members of the Association of American Universities and one of the nine colonial colleges chartered before the American Revolution.Over its history, the university has also produced many distinguished alumni. These include 14 heads of state (including two U.S. Presidents); 25 billionaires – the most of any university in the world at the undergraduate level; three United States Supreme Court justices; over 33 United States Senators, 42 United States Governors and 158 members of the U.S. House of Representatives; 8 signers of the United States Declaration of Independence; and 12 signers of the United States Constitution. In addition, some 30 Nobel laureates, 169 Guggenheim Fellows and 80 members of the American Academy of Arts and Sciences have been affiliated with Penn. In addition, Penn has produced a significant number of Fortune 500 CEOs, in third place worldwide after Harvard and Stanford."},
-    {"name":"upenn","img":"upenn.jpg", "text":""},
-    {"name":"pitt", "img":"pitt.png","text":"The University of Pittsburgh (commonly referred to as Pitt) is a state-related research university located in Pittsburgh, Pennsylvania. In 1787 after the American Revolutionary War, it was founded on the edge of the American frontier as the Pittsburgh Academy. It developed and was renamed as Western University of Pennsylvania by a change to its charter in 1819. After surviving two devastating fires and various relocations within the area, the school moved to its current location in the Oakland neighborhood of the city; it was renamed as the University of Pittsburgh in 1908. For most of its history, Pitt was a private institution, until 1966 when it became part of the Commonwealth System of Higher Education."}
-],
-"sliderImage":[ 
-       { "name": "n1.png",
-         "description": "this is a demo"
-       },
-       { "name": "n2.png",
-         "description": "this is a demo"
-       },
-       { "name": "n3.png",
-         "description": "this is a demo"
-       },
-       { "name": "n4.png",
-         "description": "this is a demo"
-       },
-       { "name": "n5.png",
-         "description": "this is a demo"
-       },
-       { "name": "n6.png",
-         "description": "this is a demo"
-       },
-       { "name": "n7.png",
-         "description": "this is a demo"
-       },
-       { "name": "n8.png",
-         "description": "this is a demo"
-       },
-       { "name": "n9.png",
-         "description": "this is a demo"
-       },
-       { "name": "n10.png",
-         "description": "this is a demo"
-       }     
-     ]    
-}
-
+  ,
+  "dropdown":[{
+      "title" : "US High School",
+      "name": "US Highschool",
+      "shortname" : "highschool",
+      "summary" : "",
+      "description": "<p>橡叶留学的高中留学服务包括帮助中国小留学生来到美国的私立高中和初中学习，橡叶留学从2008年就开始招收国际高中留学生。我们拥有丰富的美国高中资源和多年的管理经验。我们可以根据每个小留学生自身不同的情况，在申请之前和申请学生的家长进行深度沟通，答疑并且提出我们的建议和意见。近年来在美国留学的小留学生越来越多，相应出现的问题也很多，这是很多家长都非常关心的问题。对于我们来说，学生在学习上的进步，身心健康成长，和人身安全都是我们非常关心的问题。根据我们常年的留学管理经验，我们可以很骄傲地告诉我们的家长，我们所有的学生都很顺利的完成了高中学业，而且全部进入了美国的名牌大学（前一百名）。我们的同学分散在美国各个地区的大学，他们从事的专业从计算机，数学，物理等理工专业，到语言学，营养学，会计，金融，建筑，音乐，美术等其他学科。很多同学甚至刚来的时候学习情况并不乐观，或者很多小留学生有心理问题，或者一些同学由于年纪小，孤独，具有很多个人问题，在我们的悉心培育下，大家都快乐的成长，认识了很多美国的朋友，一起快乐的学习。</p><p>我们的服务包括：<ul><li>申请美国的高中</li><li>联系寄宿家庭</li><li>寄宿家庭的管理</li><li>和家长定时沟通学生的学习情况和生活情况</li><li>K11,K12的学生，我们会为小留学生安排预约TOEFL和ACT的考试</li><li>我们会和学校沟通悉心的为学生量身定制适合他们自身情况的选课计划</li><li>为我们的学生制定大学升学计划，包括如何选择未来的大学及专业</li><li>和我们的合作高中密切合作，为学生升入美国名牌大学包装个人申请材料</li></ul></p> <p>高中留学适应的人群：初中在读生和高中在读生。</p>",
+      "image": []
+      },
+      {
+      "title" : "US Undergraduate",
+      "name": "US Undergraduate",
+      "shortname" : "undergraduate",
+      "summary": "",
+      "description": "<p>橡叶留学的本科留学服务定位于高，精，尖的留学服务。我们所有的留学院校均是美国前几十名的大学。根据学生的情况，我们会根据学生的经济情况，学习情况，个人喜好，为我们的学生选择最合适的大学。我们的留学申请工作是基于我们多年申请经验的大数据。我们会为本科申请学生提供最优秀的专业选择咨询，让学生们学习到自己喜欢的专业。我们专注于很多专业的申请，包括理工科，例如计算机，数学，物理，化学； 工程专业，例如土木工程，建筑设计，园林设计；艺术类专业： 音乐，电影，传媒及美术。</p><p>橡叶留学本科留学服务的适宜人群: <ul><li>国内高三在读学生。</li><li>国内大专在读生</li><li>国内本科在读生</li></p>",
+         "image" : ["columbia.png" , "nyc.png" , "princeton.png", "ucla.png", "ucsd.png", "ucsb.png", "ui.png","isu.png","iu.png","uiuc.png","umich.png","msu.png", "uo.png","cmu.png","pitt.png","upenn.jpg","ru.jpg"]
+      },
+      {
+      "title" : "US Summer Camp",
+      "name": "US Summercamp",
+      "shortname" : "summercamp",
+      "summary": "",
+      "description": "<p>橡叶留学夏令营活动适合于各个年龄层的学生，我们有中学生夏令营和大学生夏令营。夏令营活动主要能够使国内的学生感受到欧美的教育，享受一下游学的经历。在这过程我们会安排学生们参观美国的东海岸的著名城市和大学。例如，纽约市，华盛顿特区，学生们能够亲自参观曼哈顿，华尔街，自由女神，白宫及国会山。我们还会安排学生们参观美国顶级大学，例如哥伦比亚大学，普林斯顿大学，纽约大学， 罗格斯大学和宾夕法尼亚大学。</p><p>适宜申请人群：<ul><li>国内初中，高中在读生</li><li>国内大专，本科在读生</li></ul></p><p>夏令营游学项目： <ul><li>美国东部20日游学活动（纽约，新泽西，费城，华盛顿特区）</li><li>美国西部10日游学活动（硅谷，旧金山，洛杉矶）</li></ul></p>",
+      "image" : []
+      },
+      {
+      "title" : "Transfer Student",
+      "name": "Transfer Student",
+      "shortname" : "transfer",
+      "summary": "",
+      "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p> <div style='display:inline-block'><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p></div>",
+      "image" : []
+      },
+      {
+      "title" : "Home Tutor",
+      "name": "Home Tutor",
+      "shortname" : "hometutor",
+      "summary": "",
+      "description": "<p>橡叶留学在美转学服务是帮助广大已经在美国在读的留学生办理转学业务，这其中包括选择学校，选择专业，评估申请情况，评估申请材料，准备推荐信，准备个人陈述，网上申请等，能够帮助在已经美国留学的小留学生们找到一个更加理想的大学。</p><p>适宜申请人：<ul><li>美国社区大学在读生</li><li>美国本科在读生</li></p>",
+      "image" : []
+      }
+     ],
+     "university": [
+      {"name":"cu", "img":"columbia.png","text":"Columbia University (Columbia officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City. Columbia contains the oldest college in the state of New York and is the fifth chartered institution of higher learning in the United States, making it one of nine colonial colleges founded prior to the Declaration of Independence.The university has graduated many notable alumni. As of 2017, alumni and affiliates include 5 Founding Fathers of the United States – among these an author of the Declaration of Independence and an author of the United States Constitution; 10 Justices of the United States Supreme Court; 95 Nobel laureates; 20 living billionaires; 123 Pulitzer Prize winners; 39 Oscar winners; 3 United States Presidents; 29 heads of state; 101 National Academy members; 77 National Medal of Science winners; and 23 National Humanities Medal recipients."},
+      {"name":"princeton", "img":"princeton.png","text":"Princeton University is a private Ivy League research university in Princeton, New Jersey, United States. Founded in 1746 in Elizabeth as the College of New Jersey, Princeton is the fourth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. The institution moved to Newark in 1747, then to the current site nine years later, where it was renamed Princeton University in 1896."},
+      {"name":"nyc", "img":"nyc.png","text":"New York University (NYU) is a private nonprofit research university based in New York City. Founded in 1831, NYU's main campus is centered in Manhattan, located with its core in Greenwich Village, and campuses based throughout New York City. NYU is also a worldwide university, operating NYU Abu Dhabi and NYU Shanghai, and centers in Accra, Berlin, Buenos Aires, Florence, London, Madrid, Paris, Prague, Sydney, Tel Aviv, and Washington, D.C."},
+      {"name":"ucla","img":"ucla.png", "text":"The University of California, Los Angeles (UCLA) is a public research university in the Westwood district of Los Angeles, United States. It became the Southern Branch of the University of California in 1919, making it the second-oldest undergraduate campus of the ten-campus University of California system. It offers 337 undergraduate and graduate degree programs in a wide range of disciplines. UCLA enrolls about 31,000 undergraduate and 13,000 graduate students, and had 119,000 applicants for Fall 2016, including transfer applicants, the most applicants for any American university."},
+      {"name":"ucsd","img":"ucsd.png", "text":"The University of California, San Diego is a public research university located in the La Jolla neighborhood of San Diego, California, in the United States. The university occupies 2,141 acres (866 ha) near the coast of the Pacific Ocean with the main campus resting on approximately 1,152 acres (466 ha).Established in 1960 near the pre-existing Scripps Institution of Oceanography, UC San Diego is the seventh oldest of the 10 University of California campuses and offers over 200 undergraduate and graduate degree programs, enrolling about 28,000 undergraduate and 7,000 graduate students."},
+      {"name":"ucsb","img":"ucsb.png", "text":"The University of California, Santa Barbara (commonly referred to as UC Santa Barbara or UCSB) is a public research university and one of the 10 campuses of the University of California system. The main campus is located on a 1,022-acre (414 ha) site near Isla Vista, California, United States, 8 miles (13 km) from Santa Barbara and 100 miles (160 km) northwest of Los Angeles. Tracing its roots back to 1891 as an independent teachers' college, UCSB joined the University of California system in 1944 and is the third-oldest general-education campus in the system."},
+      {"name":"iu","img":"iu.png", "text":"Indiana University (IU) is a multi-campus public university system in the state of Indiana, United States. Indiana University has a combined student body of more than 110,000 students, which includes approximately 46,000 students enrolled at the Indiana University Bloomington campus and approximately 31,000 students enrolled at the Indiana University – Purdue University Indianapolis (IUPUI) campus."},
+      {"name":"isu", "img":"isu.png","text":"Iowa State University of Science and Technology, generally referred to as Iowa State, is a public flagship land-grant and space-grant research university located in Ames, Iowa, United States. It is the largest university in the state of Iowa and the third largest university in the Big 12 athletic conference. Iowa State is classified as a Research University with very high research activity (RU/VH) by the Carnegie Foundation for the Advancement of Teaching. Iowa State is also a member of the Association of American Universities (AAU), which consists of 62 leading research universities in North America."},
+      {"name":"ui", "img":"ui.png","text":"The University of Iowa (also known as the UI, U of I, UIowa, or simply Iowa) is a flagship public research university in Iowa City, Iowa. Founded in 1847, it is the oldest university in the state. The University of Iowa is organized into eleven colleges offering more than 200 areas of study and seven professional degrees"},
+      {"name":"uiuc","img":"uiuc.png", "text":"The University of Illinois at Urbana–Champaign (also known as U of I, Illinois, or colloquially as the University of Illinois or UIUC) is a public research university in the U.S. state of Illinois. Founded in 1867 as a land-grant institution in the twin cities of Champaign and Urbana, it is the flagship campus of the University of Illinois system and a founding member of the Big Ten Conference."},
+      {"name":"umich", "img":"umich.png","text":"The University of Michigan (UM, U-M, U of M, or UMich), often simply referred to as Michigan, is a public research university in Ann Arbor, Michigan. The University of Michigan is the state's oldest university, founded in 1817 in Detroit, Michigan as the Catholepistemiad, or University of Michigania, 20 years before the Michigan Territory became a state. It moved to Ann Arbor in 1837 onto 40 acres (16 ha) of what is now known as Central Campus. Since its establishment in Ann Arbor, the university campus has expanded to include more than 584 major buildings with a combined area of more than 34 million gross square feet (780 acres; 3.2 km2) spread out over a Central Campus and North Campus, two regional campuses in Flint and Dearborn, and a Center in Detroit. The University was a founding member of the Association of American Universities."},
+      {"name":"msu","img":"msu.png", "text":"Michigan State University (MSU) is a public research university in East Lansing, Michigan, United States. MSU was founded in 1855 and served as a model for land-grant universities later created under the Morrill Act of 1862. The university was founded as the Agricultural College of the State of Michigan, one of the country's first institutions of higher education to teach scientific agriculture. After the introduction of the Morrill Act, the college became coeducational and expanded its curriculum beyond agriculture. Today, MSU is one of the largest universities in the United States (in terms of enrollment) and has approximately 552,000 living alumni worldwide."},
+      {"name":"uo","img":"uo.png", "text":"The University of Oregon (also referred to as UO, U of O or Oregon) is a public flagship research university in Eugene, Oregon. Founded in 1876, the institution's 295-acre campus is along the Willamette River. Since July 2014, UO has been governed by the Board of Trustees of the University of Oregon. The university has a Carnegie Classification of 'highest research activity' and has 19 research centers and institutes. UO was admitted to the Association of American Universities in 1969."},
+      {"name":"cmu","img":"cmu.png", "text":"Carnegie Mellon University (Carnegie Mellon or CMU /ˈkɑːrnɪɡi ˈmɛlən/ or /kɑːrˈneɪɡi ˈmɛlən/) is a private research university in Pittsburgh, Pennsylvania.</p><p>Founded in 1900 by Andrew Carnegie as the Carnegie Technical Schools, the university became the Carnegie Institute of Technology in 1912 and began granting four-year degrees. In 1967, the Carnegie Institute of Technology merged with the Mellon Institute of Industrial Research to form Carnegie Mellon University."},
+      {"name":"up", "img":"ru.jpg","text":"Rutgers, The State University of New Jersey (/ˈrʌtɡərz/), commonly referred to as Rutgers University, Rutgers, or RU, is an American public research university and is the largest institution of higher education in New Jersey."},
+      {"name":"upenn","img":"upenn.jpg", "text":"The University of Pennsylvania (commonly known as Penn or UPenn) is a private Ivy League research university located in the University City section of Philadelphia. Incorporated as The Trustees of the University of Pennsylvania, Penn is one of 14 founding members of the Association of American Universities and one of the nine colonial colleges chartered before the American Revolution.Over its history, the university has also produced many distinguished alumni. These include 14 heads of state (including two U.S. Presidents); 25 billionaires – the most of any university in the world at the undergraduate level; three United States Supreme Court justices; over 33 United States Senators, 42 United States Governors and 158 members of the U.S. House of Representatives; 8 signers of the United States Declaration of Independence; and 12 signers of the United States Constitution. In addition, some 30 Nobel laureates, 169 Guggenheim Fellows and 80 members of the American Academy of Arts and Sciences have been affiliated with Penn. In addition, Penn has produced a significant number of Fortune 500 CEOs, in third place worldwide after Harvard and Stanford."},
+      {"name":"pitt", "img":"pitt.png","text":"The University of Pittsburgh (commonly referred to as Pitt) is a state-related research university located in Pittsburgh, Pennsylvania. In 1787 after the American Revolutionary War, it was founded on the edge of the American frontier as the Pittsburgh Academy. It developed and was renamed as Western University of Pennsylvania by a change to its charter in 1819. After surviving two devastating fires and various relocations within the area, the school moved to its current location in the Oakland neighborhood of the city; it was renamed as the University of Pittsburgh in 1908. For most of its history, Pitt was a private institution, until 1966 when it became part of the Commonwealth System of Higher Education."}
+  ],
+  "sliderImage":[ 
+         { "name": "n1.png",
+           "description": "this is a demo"
+         },
+         { "name": "n2.png",
+           "description": "this is a demo"
+         },
+         { "name": "n3.png",
+           "description": "this is a demo"
+         },
+         { "name": "n4.png",
+           "description": "this is a demo"
+         },
+         { "name": "n5.png",
+           "description": "this is a demo"
+         },
+         { "name": "n6.png",
+           "description": "this is a demo"
+         },
+         { "name": "n7.png",
+           "description": "this is a demo"
+         },
+         { "name": "n8.png",
+           "description": "this is a demo"
+         },
+         { "name": "n9.png",
+           "description": "this is a demo"
+         },
+         { "name": "n10.png",
+           "description": "this is a demo"
+         }     
+       ]    
+  }
+  
+  
