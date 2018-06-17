@@ -2,14 +2,17 @@
   
   <div class="container">
     <div class="row">
-        <% var counter = 0; 
-           services = translation.dropdown;
-           for (x in services) {
-           item = services[x];
+        <% var counter = 0;
+        	 for (x in services) {
+           		item = services[x];
          %>
          
-        <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
-          <% if (counter < SERVICES_NUM) { %>
+        <div class="<% if (pageID == 'home') { 
+        				%>col-sm-4 text-center
+        			  <%} else { %>col-sm-8 
+        			  <% } %>
+        ">
+         <% if (counter < SERVICES_NUM) { %>
           <h3 class="serviceslist-title"><%= item.title %></h3>
           <h5 class="serviceslist-name">with 
                  <a href="/services/<%= item.shortname %>"><%= item.name %></a></h5>
@@ -43,8 +46,9 @@
               <% } else { %>
 
                 <div style="display:block">
-
-                <%- item.description %>
+                <%console.log(services[0]);%>
+                <%- item.description 
+                 %>
                <!-- </div> -->
               <% } %>
             <% } %>

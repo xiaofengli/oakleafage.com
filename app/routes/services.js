@@ -24,13 +24,14 @@ router.get('/services/:serviceid', (req, res) => {
   var pageServices = [];
   var services = data.dropdown;
 
-  console.log(req.app.get('i18n'));
-   services.forEach(function(item) {
+  services.forEach(function(item) {
     if (item.shortname == req.params.serviceid) {
     	pageServices.push(item);
       pagePhotos = pagePhotos.concat(item.image);
     }
   });
+  
+  console.log(pageServices);
 
   res.render('services', {
     pageTitle: 'Service Info',

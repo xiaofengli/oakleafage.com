@@ -20,7 +20,6 @@ router.post('/api', function(req, res) {
   var feedbackData=[];
   feedbackData.unshift(req.body);
 
-  console.log(feedbackData[0]);
   fs.writeFile('app/data/feedbacks/'+ feedbackData[0].firstname+ Date.now() +'.json', JSON.stringify(feedbackData), 'utf8', function(err) {
     if (err) {
       console.log(err);

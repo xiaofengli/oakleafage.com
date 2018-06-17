@@ -22,7 +22,6 @@ var storage = multer.diskStorage({
 		callback(null, './uploads')
 	},
 	filename: function(req, file, callback) {
-		console.log(file)
 		callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname))
 	}
 })
@@ -41,7 +40,6 @@ router.post('/survey', function(req,res){
 			  console.log(err);
 			}
 		  });
-		console.log(feedbackData[0]);
 		res.end('File is uploaded')
 	});
 });
