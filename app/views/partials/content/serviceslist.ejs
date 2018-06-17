@@ -2,19 +2,33 @@
   
   <div class="container">
     <div class="row">
-        
-         
+      <%if(pageID=='home'){%>
+      <% var counter = 0; 
+      services = translation.dropdown;
+      for (x in services) {
+      item = services[x];
+      
+      console.log(pageID);
+      
+    %>
         <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
-          <% var counter = 0; 
-           services = translation.dropdown;
-           for (x in services) {
-           item = services[x];
-           
-           console.log(pageID);
-           
-         %>
-          <% if (counter < translation.dropdown.length) { %>
-            <%if(item.shortname==identify){%>
+          
+          <% if (counter < translation.dropdown.length-2) { %>
+           <% if(pageID=='home'){ %>
+            <h3 class="serviceslist-title"><%= item.title %></h3>
+        
+          <h5 class="serviceslist-name">with 
+                 <a href="/services/<%= item.shortname %>"><%= item.name %></a></h5>
+            <%}else if(item.shortname==identify){%>
+
+
+
+
+
+
+
+
+            
           <h3 class="serviceslist-title"><%= item.title %></h3>
         
           <h5 class="serviceslist-name">with 
@@ -60,7 +74,81 @@
             <% } %>
           </p>
         </div>
-        <%  }}; %>
+        <%  }}} else{%>
+         
+            <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
+              <% var counter = 0; 
+              services = translation.dropdown;
+              for (x in services) {
+              item = services[x];
+              
+              console.log(pageID);
+              
+            %>
+              <% if (counter < translation.dropdown.length) { %>
+               <% if(pageID=='home'){ %>
+                <h3 class="serviceslist-title"><%= item.title %></h3>
+            
+              <h5 class="serviceslist-name">with 
+                     <a href="/services/<%= item.shortname %>"><%= item.name %></a></h5>
+                <%}else if(item.shortname==identify){%>
+    
+    
+    
+    
+    
+    
+    
+    
+                
+              <h3 class="serviceslist-title"><%= item.title %></h3>
+            
+              <h5 class="serviceslist-name">with 
+                     <a href="/services/<%= item.shortname %>"><%= item.name %></a></h5>
+              <%}%>
+              <p class="serviceslist-info">
+    
+                 <a href="/services/<%= item.shortname %>">
+                  <% if (pageID == 'home') { %>
+                    <img class="serviceslist-img img-circle" 
+                         src="/images/services/<%= item.shortname %>_tn.jpg" 
+                         alt="Photo of <%= item.name %>"></a>
+                  <%  
+                     }
+                     counter++; 
+                   %>
+                  <% if (pageID == 'serviceList') { %>
+                    <%if(item.shortname==identify){%>
+                    <img class="serviceslist-img img-circle pull-left" 
+                         src="/images/services/<%= item.shortname %>_tn.jpg" 
+                         alt="Photo of <%= item.name %>"></a>
+                  <% }} %>
+                </a> 
+                
+                 <% if (pageID == 'serviceDetail') { %>
+                  <%if(item.shortname==identify){%>
+                    <img class="serviceslist-img img-responsive pull-left" 
+                       src="/images/services/<%= item.shortname %>.jpg" 
+                       alt="Photo of <%= item.name %>"></a>
+                  <% }} %>
+                </a>
+                <% if (pageID !== 'home') { %>
+                  <% if (pageID == 'serviceList') { %>
+                  <%= 'debug'%>
+                    <%= item.summary %>
+                  <% } else { %>
+    
+                    <div style="display:block">
+                      <%if(item.shortname==identify){%>
+                    <%- item.description %>
+                   <!-- </div> -->
+                  <% }} %>
+                <% } %>
+              </p>
+            </div>
+        
+            <%  }}%>
+        <%}%>
     </div>    <!-- row -->
   </div>      <!-- container -->
   
