@@ -76,7 +76,7 @@ app.locals.SERVICES_NUM = 3; //this is the number of services to show in the ind
  * */
 //Set up view and view engine
 app.set('view engine', 'ejs'); // view engine can be mastache/handlebarjs/ejs html template
-app.set('views', 'app/views'); // web rending, .jsp
+app.set('views', path.join(__dirname,'views')); // web rending, .jsp
 
 //Set up controller
 app.use(express.static('app/public'));

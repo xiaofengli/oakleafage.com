@@ -16,6 +16,7 @@ This is a lightweight website using ExpressJS for the MVC and use EJS as HTML te
 * Run `> npm start` command to start the server
 * To run in background, use  `forever nodemon --exitcrash`  [more commands](https://stackoverflow.com/questions/12701259/how-to-make-a-node-js-application-run-permanently) 
 
+forever start -c "npm start"
 
 Once the last above command is executed, keep the window open,
 and try to open in your browser for: localhost:3000. 
